@@ -1,0 +1,212 @@
+settings:
+  reset-interval: 1
+  timezone: Europe/Prague
+  reset-time: '0:00'
+  quest-amount: 3
+
+
+'1':
+  name: 'Daily - Social'
+  item:
+    material: book:0
+    name: '&aHodný hráč'
+    lore:
+      - '&7Pozdrav všechny pomocí &b''Ahoj všichni'''
+      - '&7ke splnění questu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Social'
+    type: chat
+    variable: 'Ahoj všichni'
+    required-progress: 1
+
+### Walking
+    
+'2':
+  name: 'Daily - Walking I'
+  item:
+    material: leather_boots:0
+    amount: 1
+    name: '&aDenní procházka - I'
+    lore:
+      - '&7Ujdi přibližně 500 bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 500
+    
+'3':
+  name: 'Daily - Walking II'
+  item:
+    material: leather_boots:0
+    amount: 2
+    name: '&aDenní procházka - II'
+    lore:
+      - '&7Ujdi přibližně 1k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 1000
+
+### consume
+    
+'4':
+  name: 'Daily - Dieta I'
+  item:
+    material: apple:0
+    amount: 1
+    name: '&aDenní dieta - I'
+    lore:
+      - '&7Sněz 5x jablko!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Dieta'
+    type: consume
+    variable: 'APPLE'
+    required-progress: 5
+
+### block place
+    
+'5':
+  name: 'Daily - Builder I'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aDaily - Builder I'
+    lore:
+      - '&7Polož 150 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 150
+    
+'6':
+  name: 'Daily - Builder II'
+  item:
+    material: stone_pickaxe:0
+    amount: 2
+    name: '&aDaily - Builder II'
+    lore:
+      - '&7Polož 400 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 400
+    
+'7':
+  name: 'Daily - Builder III'
+  item:
+    material: stone_pickaxe:0
+    amount: 3
+    name: '&aDaily - Builder III'
+    lore:
+      - '&7Polož 800 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 800
+
+
+### votes
+    
+'8':
+  name: 'Daily - Votes I'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aDaily - Votes I'
+    lore:
+      - '&7Zahlasuj pro server 2x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 2
+
+### logins
+'9':
+  name: 'Daily - Login'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aDaily - Login'
+    lore:
+      - '&7Připoj se na server 1x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 1
+    
+### place
+    
+'10':
+  name: 'Daily - Builder I'
+  item:
+    material: coal_ore:0
+    amount: 1
+    name: '&eDaily - Builder I'
+    lore:
+      - '&7Polož 300 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 300
+    
+'11':
+  name: 'Daily - Builder II'
+  item:
+    material: coal_ore:0
+    amount: 2
+    name: '&eDaily - Builder II'
+    lore:
+      - '&7Polož 666 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 666
+    
+'12':
+  name: 'Daily - Builder III'
+  item:
+    material: coal_ore:0
+    amount: 3
+    name: '&eDaily - Builder III'
+    lore:
+      - '&7Polož 1000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 1000

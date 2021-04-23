@@ -1,0 +1,521 @@
+settings:
+  reset-interval: 7
+  timezone: Europe/Prague
+  reset-time: '0:00'
+  quest-amount: 6
+
+### block place
+    
+'1':
+  name: 'Weekly - Builder I'
+  item:
+    material: coal_ore:0
+    amount: 1
+    name: '&eWeekly - Builder I'
+    lore:
+      - '&7Polož 2,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 2000
+    
+'2':
+  name: 'Weekly - Builder II'
+  item:
+    material: coal_ore:0
+    amount: 2
+    name: '&eWeekly - Builder II'
+    lore:
+      - '&7Polož 3,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 3000
+    
+'3':
+  name: 'Weekly - Builder III'
+  item:
+    material: coal_ore:0
+    amount: 3
+    name: '&eWeekly - Builder III'
+    lore:
+      - '&7Polož 6,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 6000
+
+### vote
+    
+'4':
+  name: 'Weekly - Votes I'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aWeekly - Votes I'
+    lore:
+      - '&7Zahlasuj pro server 10x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 10
+    
+'5':
+  name: 'Weekly - Votes II'
+  item:
+    material: SLIME_BALL:0
+    amount: 2
+    name: '&aWeekly - Votes II'
+    lore:
+      - '&7Zahlasuj pro server 20x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 20
+    
+'6':
+  name: 'Weekly - Votes III'
+  item:
+    material: SLIME_BALL:0
+    amount: 3
+    name: '&aWeekly - Votes III'
+    lore:
+      - '&7Zahlasuj pro server 30x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 30
+
+## login
+
+'7':
+  name: 'Weekly - Login'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aWeekly - Login'
+    lore:
+      - '&7Připoj se na server 5x za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 5
+
+'8':
+  name: 'Weekly - Login II'
+  item:
+    material: honeycomb:0
+    amount: 2
+    name: '&aWeekly - Login II'
+    lore:
+      - '&7Připoj se na server 7x za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 7
+    
+    
+### sprint
+    
+'9':
+  name: 'Weekly - Sprint I'
+  item:
+    material: FEATHER:0
+    amount: 1
+    name: '&aWeekly - Sprint I'
+    lore:
+      - '&7Uběhni 750 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sprint'
+    type: sprint
+    required-progress: 750
+    
+'10':
+  name: 'Weekly - Sprint II'
+  item:
+    material: FEATHER:0
+    amount: 2
+    name: '&aWeekly - Sprint II'
+    lore:
+      - '&7Uběhni 1600 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sprint'
+    type: sprint
+    required-progress: 1600
+
+### miner
+
+'11':
+  name: 'Weekly - Miner I'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aWeekly - Miner I'
+    lore:
+      - '&7Vytěž 2,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'WMiner-1'
+    type: block-break
+    variable: none
+    required-progress: 2000
+
+'12':
+  name: 'Weekly - Miner II'
+  item:
+    material: stone_pickaxe:0
+    amount: 2
+    name: '&aWeekly - Miner II'
+    lore:
+      - '&7Vytěž 3,500 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'WMiner-2'
+    type: block-break
+    variable: none
+    required-progress: 3500
+
+'13':
+  name: 'Weekly - Obsidian'
+  item:
+    material: obsidian:0
+    amount: 1
+    name: '&eWeekly - Obsidian'
+    lore:
+      - '&7Vytěž 20 obsidian bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'WObsidianer-1'
+    type: block-break
+    variable: obsidian
+    required-progress: 20
+
+'14':
+  name: 'Weekly - Irons'
+  item:
+    material: iron_ore:0
+    amount: 1
+    name: '&eWeekly - Irons'
+    lore:
+      - '&7Vytěž 64x Iron Ore.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'WIrons-1'
+    type: block-break
+    variable: iron_ore
+    required-progress: 64
+
+'15':
+  name: 'Weekly - Golds'
+  item:
+    material: gold_ore:0
+    amount: 1
+    name: '&eWeekly - Golds'
+    lore:
+      - '&7Vytěž 64x Gold Ore.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'WGolds-1'
+    type: block-break
+    variable: gold_ore
+    required-progress: 64
+
+'16':
+  name: 'Weekly - Netherite I'
+  item:
+    material: netherite_scrap:0
+    amount: 1
+    name: '&eWeekly - Netherite I'
+    lore:
+      - '&7Vytěž 2x Netherite Scrap.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'WNetherite-1'
+    type: block-break
+    variable: ANCIENT_DEBRIS:0
+    required-progress: 2
+
+'17':
+  name: 'Weekly - Netherite II'
+  item:
+    material: netherite_scrap:0
+    amount: 2
+    name: '&eWeekly - Netherite II'
+    lore:
+      - '&7Vytěž 6x Netherite Scrap.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'WNetherite-2'
+    type: block-break
+    variable: ANCIENT_DEBRIS:0
+    required-progress: 6
+
+'18':
+  name: 'Weekly - Glowstone'
+  item:
+    material: glowstone:0
+    amount: 1
+    name: '&eWeekly - Glowstone'
+    lore:
+      - '&7Vytěž 64x Glowstone.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'WGlowstone-1'
+    type: block-break
+    variable: glowstone
+    required-progress: 64
+
+### eat
+    
+'19':
+  name: 'Weekly - Meal'
+  item:
+    material: APPLE:0
+    amount: 1
+    name: '&aWeekly - Meal'
+    lore:
+      - '&7Sněz 30x jakýkoliv druh jídla!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'consume-1'
+    type: consume
+    required-progress: 30
+
+### crafting
+    
+'20':
+  name: 'Weekly - Crafter'
+  item:
+    material: CRAFTING_TABLE:0
+    amount: 1
+    name: '&aWeekly - Crafter'
+    lore:
+      - '&7Použij 35x Crafting Table'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'craft-1'
+    type: craft
+    required-progress: 35
+
+### playtime
+    
+'21':
+  name: 'Weekly - Playtime I'
+  item:
+    material: WATCH:0
+    amount: 1
+    name: '&aWeekly - Playtime I'
+    lore:
+      - '&7Odehraj na serveru 6 hodin.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-1'
+    type: playtime
+    required-progress: 360
+    
+'22':
+  name: 'Weekly - Playtime II'
+  item:
+    material: WATCH:0
+    amount: 1
+    name: '&aWeekly - Playtime II'
+    lore:
+      - '&7Odehraj na serveru 12 hodin.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-1'
+    type: playtime
+    required-progress: 720
+    
+'23':
+  name: 'Weekly - Playtime III'
+  item:
+    material: WATCH:0
+    amount: 1
+    name: '&aWeekly - Playtime III'
+    lore:
+      - '&7Odehraj na serveru 24 hodin.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-1'
+    type: playtime
+    required-progress: 1440
+
+### enchant
+    
+'24':
+  name: 'Weekly - Enchant'
+  item:
+    material: IRON_INGOT:0
+    amount: 1
+    name: '&aWeekly - Enchant'
+    lore:
+      - '&7Oenchantuj 10x jakýkoliv item.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ench-1'
+    type: enchant
+    required-progress: 10
+
+### hunter
+    
+'25':
+  name: 'Weekly - Hunter Pig'
+  item:
+    material: PORKCHOP:0
+    amount: 1
+    name: '&aWeekly - Hunter Pig'
+    lore:
+      - '&7Zabij 30x Prase'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'pig-1'
+    type: kill-mob
+    variable: PIG
+    required-progress: 30
+    
+'26':
+  name: 'Weekly - Hunter Chicken'
+  item:
+    material: CHICKEN:0
+    amount: 1
+    name: '&aWeekly - Hunter Chicken'
+    lore:
+      - '&7Zabij 30x kuřat'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'chick-1'
+    type: kill-mob
+    variable: CHICKEN
+    required-progress: 30
+    
+'27':
+  name: 'Weekly - Hunter Squid'
+  item:
+    material: BLACK_DYE:0
+    amount: 1
+    name: '&aWeekly - Squid'
+    lore:
+      - '&7Zabij 3x Squid'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'squid'
+    type: kill-mob
+    variable: SQUID
+    required-progress: 3
+    
+'28':
+  name: 'Weekly - Hunter Blaze'
+  item:
+    material: BLAZE_ROD:0
+    amount: 1
+    name: '&aWeekly - Hunter Blaze'
+    lore:
+      - '&7Zabij 10x Blaze'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'blaze-3'
+    type: kill-mob
+    variable: BLAZE
+    required-progress: 10
+    
+'29':
+  name: 'Weekly - Hunter Creeper'
+  item:
+    material: GUNPOWDER:0
+    amount: 1
+    name: '&aWeekly - Hunter Creeper'
+    lore:
+      - '&7Zabij 30x Creeper'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'creeper-2'
+    type: kill-mob
+    variable: CREEPER
+    required-progress: 30
+    
+'30':
+  name: 'Weekly - Hunter Ender Dragon'
+  item:
+    material: DRAGON_BREATH:0
+    amount: 1
+    name: '&aWeekly - Hunter Ender Dragon'
+    lore:
+      - '&7Zabij 1x Ender Dragon'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'creeper-2'
+    type: kill-mob
+    variable: ENDER_DRAON
+    required-progress: 1
+

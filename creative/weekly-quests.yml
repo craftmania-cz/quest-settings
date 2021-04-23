@@ -1,0 +1,145 @@
+settings:
+  reset-interval: 7
+  timezone: Europe/Prague
+  reset-time: '0:00'
+  quest-amount: 3
+
+
+### consume
+    
+'1':
+  name: 'Weekly - Dieta I'
+  item:
+    material: apple:0
+    amount: 1
+    name: '&eWeekly - Dieta I'
+    lore:
+      - '&7Sněz 30x jakékoliv jídlo!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Dieta'
+    type: consume
+    required-progress: 30
+
+### block place
+    
+'2':
+  name: 'Weekly - Builder I'
+  item:
+    material: coal_ore:0
+    amount: 1
+    name: '&eWeekly - Builder I'
+    lore:
+      - '&7Polož 1,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 4000
+    
+'3':
+  name: 'Weekly - Builder II'
+  item:
+    material: coal_ore:0
+    amount: 2
+    name: '&eWeekly - Builder II'
+    lore:
+      - '&7Polož 2,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 2000
+    
+'4':
+  name: 'Weekly - Builder III'
+  item:
+    material: coal_ore:0
+    amount: 3
+    name: '&eWeekly - Builder III'
+    lore:
+      - '&7Polož 3,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 3000
+
+### vote
+    
+'5':
+  name: 'Weekly - Votes I'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aWeekly - Votes I'
+    lore:
+      - '&7Zahlasuj pro server 7x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 7
+    
+'6':
+  name: 'Weekly - Votes II'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aWeekly - Votes II'
+    lore:
+      - '&7Zahlasuj pro server 14x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 14
+
+## login
+
+'7':
+  name: 'Weekly - Login'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aWeekly - Login'
+    lore:
+      - '&7Připoj se na server 5x za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 5
+    
+    
+### sprint
+    
+'8':
+  name: 'Weekly - Sprint I'
+  item:
+    material: FEATHER:0
+    amount: 1
+    name: '&aWeekly - Sprint I'
+    lore:
+      - '&7Uběhni 750 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sprint'
+    type: sprint
+    required-progress: 750

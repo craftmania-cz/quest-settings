@@ -1,0 +1,417 @@
+settings:
+  reset-interval: 1
+  timezone: Europe/Prague
+  reset-time: '0:00'
+  quest-amount: 4
+
+
+'1':
+  name: 'Daily - Social'
+  item:
+    material: book:0
+    name: '&aHodný hráč'
+    lore:
+      - '&7Pozdrav všechny pomocí &b''Ahoj všichni'''
+      - '&7ke splnění questu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Social'
+    type: chat
+    variable: 'Ahoj všichni'
+    required-progress: 1
+
+### Walking
+    
+'2':
+  name: 'Daily - Walking I'
+  item:
+    material: leather_boots:0
+    amount: 1
+    name: '&aDenní procházka - I'
+    lore:
+      - '&7Ujdi přibližně 500 bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 500
+    
+'3':
+  name: 'Daily - Walking II'
+  item:
+    material: leather_boots:0
+    amount: 2
+    name: '&aDenní procházka - II'
+    lore:
+      - '&7Ujdi přibližně 1k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 1000
+
+### consume
+    
+'4':
+  name: 'Daily - Meal I'
+  item:
+    material: apple:0
+    amount: 1
+    name: '&aDaily - Meal I'
+    lore:
+      - '&7Sněz 5x jablko!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Dieta'
+    type: consume
+    variable: 'APPLE'
+    required-progress: 5
+    
+'5':
+  name: 'Daily - Meal II'
+  item:
+    material: beef:0
+    amount: 2
+    name: '&aDaily - Meal II'
+    lore:
+      - '&7Sněz 10x Beef!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Dieta'
+    type: consume
+    variable: 'BEEF'
+    required-progress: 10
+
+### block place
+    
+'6':
+  name: 'Daily - Builder I'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aDaily - Builder I'
+    lore:
+      - '&7Polož 200 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 200
+    
+'7':
+  name: 'Daily - Builder II'
+  item:
+    material: stone_pickaxe:0
+    amount: 2
+    name: '&aDaily - Builder II'
+    lore:
+      - '&7Polož 400 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 300
+
+
+### votes
+    
+'8':
+  name: 'Daily - Votes I'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aDaily - Votes I'
+    lore:
+      - '&7Zahlasuj pro server 2x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 2
+    
+'9':
+  name: 'Daily - Votes II'
+  item:
+    material: SLIME_BALL:0
+    amount: 2
+    name: '&aDaily - Votes II'
+    lore:
+      - '&7Zahlasuj pro server 4x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes2'
+    type: votifier_vote
+    required-progress: 4
+
+### logins
+'10':
+  name: 'Daily - Login'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aDaily - Login'
+    lore:
+      - '&7Připoj se na server 1x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 1
+    
+### place
+    
+'11':
+  name: 'Daily - Builder I'
+  item:
+    material: coal_ore:0
+    amount: 1
+    name: '&eDaily - Builder I'
+    lore:
+      - '&7Polož 200 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 200
+    
+'12':
+  name: 'Daily - Builder II'
+  item:
+    material: coal_ore:0
+    amount: 2
+    name: '&eDaily - Builder II'
+    lore:
+      - '&7Polož 666 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 666
+
+### miner
+
+'13':
+  name: 'Daily - Irons'
+  item:
+    material: iron_ore:0
+    amount: 1
+    name: '&eDaily - Irons'
+    lore:
+      - '&7Vytěž 2x Iron Ore.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'DIrons-1'
+    type: block-break
+    variable: iron_ore
+    required-progress: 2
+
+'14':
+  name: 'Daily - Diamonds'
+  item:
+    material: diamond_ore:0
+    amount: 1
+    name: '&eDaily - Diamonds'
+    lore:
+      - '&7Vytěž 2x Diamond Ore.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'dDiamond-2'
+    type: block-break
+    variable: diamond_ore
+    required-progress: 2
+
+'15':
+  name: 'Daily - Woods I'
+  item:
+    material: oak_log:0
+    amount: 1
+    name: '&eDaily - Woods I'
+    lore:
+      - '&7Znič od 32ks Oak Wood.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: '32ks Oak Wood'
+    type: block-break
+    variable: oak_log
+    required-progress: 32
+
+'16':
+  name: 'Daily - Woods II'
+  item:
+    material: jungle_log:0
+    amount: 2
+    name: '&eDaily - Woods II'
+    lore:
+      - '&7Znič od 32ks Jungle Wood.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: '32ks Jungle Wood'
+    type: block-break
+    variable: jungle_log
+    required-progress: 32
+
+'17':
+  name: 'Daily - Woods III'
+  item:
+    material: spruce_log:0
+    amount: 3
+    name: '&eDaily - Woods III'
+    lore:
+      - '&7Znič od 32ks Spruce Wood.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: '32ks Spruce Wood'
+    type: block-break
+    variable: spruce_log
+    required-progress: 32
+
+'18':
+  name: 'Daily - Ice'
+  item:
+    material: ice:0
+    amount: 1
+    name: '&eDaily - Ice'
+    lore:
+      - '&7Vytěž 5x Ice.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Ice-2'
+    type: block-break
+    variable: ice
+    required-progress: 5
+
+'19':
+  name: 'Daily - Command I'
+  item:
+    material: compass:0
+    amount: 1
+    name: '&aDaily - Command I'
+    lore:
+      - '&7Použij 5x příkaz §b/msg'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Commander-1'
+    type: execute-command
+    variable: '/msg'
+    required-progress: 5
+    
+'20':
+  name: 'Daily - Playtime I'
+  item:
+    material: WATCH:0
+    amount: 1
+    name: '&aDaily - Playtime I'
+    lore:
+      - '&7Odehraj na serveru 1 hodinu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-1'
+    type: playtime
+    required-progress: 60
+    
+'21':
+  name: 'Daily - Playtime II'
+  item:
+    material: WATCH:0
+    amount: 2
+    name: '&aDaily - Playtime II'
+    lore:
+      - '&7Odehraj na serveru 3 hodiny.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-3'
+    type: playtime
+    required-progress: 180
+    
+'22':
+  name: 'Daily - Hunter Drowned'
+  item:
+    material: DRIED_KELP:0
+    amount: 1
+    name: '&aDaily - Hunter Drowned'
+    lore:
+      - '&7Zabij 5x Drowned'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ddrowned-3'
+    type: kill-mob
+    variable: DROWNED
+    required-progress: 5
+    
+'23':
+  name: 'Daily - Hunter Skeleton'
+  item:
+    material: BONE:0
+    amount: 1
+    name: '&aDaily - Hunter Skeleton'
+    lore:
+      - '&7Zabij 10x Skeleton'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'dskeleton-3'
+    type: kill-mob
+    variable: SKELETON
+    required-progress: 10
+    
+'24':
+  name: 'Daily - Hunter Slime'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aDaily - Hunter Slime'
+    lore:
+      - '&7Zabij 10x Slime'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'dslime-3'
+    type: kill-mob
+    variable: SLIME
+    required-progress: 10

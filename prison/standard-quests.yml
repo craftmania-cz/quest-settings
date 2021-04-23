@@ -1,0 +1,563 @@
+'1':
+  name: 'Junior Miner I'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aJunior Miner I'
+    lore:
+      - '&7Vytěž 500 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 500
+
+'2':
+  name: 'Junior Miner II'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aJunior Miner II'
+    lore:
+      - '&7Vytěž 2500 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 2500
+
+'3':
+  name: 'Junior Miner III'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aJunior Miner III'
+    lore:
+      - '&7Vytěž 7,500 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 7500
+
+'4':
+  name: 'Junior Miner IV'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aJunior Miner IV'
+    lore:
+      - '&7Vytěž 15,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 15000
+
+'5':
+  name: 'Medium Miner I'
+  item:
+    material: iron_pickaxe:0
+    amount: 1
+    name: '&eMedium Miner I'
+    lore:
+      - '&7Vytěž 50,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 50000
+
+'6':
+  name: 'Medium Miner II'
+  item:
+    material: iron_pickaxe:0
+    amount: 1
+    name: '&eMedium Miner II'
+    lore:
+      - '&7Vytěž 100,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 100000
+
+'7':
+  name: 'Medium Miner III'
+  item:
+    material: iron_pickaxe:0
+    amount: 1
+    name: '&eMedium Miner III'
+    lore:
+      - '&7Vytěž 200,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 200000
+
+'8':
+  name: 'Medium Miner IV'
+  item:
+    material: iron_pickaxe:0
+    amount: 1
+    name: '&eMedium Miner IV'
+    lore:
+      - '&7Vytěž 300,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 300000
+
+'9':
+  name: 'Medium Miner V'
+  item:
+    material: iron_pickaxe:0
+    amount: 1
+    name: '&eMedium Miner V'
+    lore:
+      - '&7Vytěž 400,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 400000
+
+'10':
+  name: 'Hardcore Miner I'
+  item:
+    material: diamond_pickaxe:0
+    amount: 1
+    name: '&cHardcore Miner I'
+    lore:
+      - '&7Vytěž 500,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 500000
+
+'11':
+  name: 'Hardcore Miner II'
+  item:
+    material: diamond_pickaxe:0
+    amount: 1
+    name: '&cHardcore Miner II'
+    lore:
+      - '&7Vytěž 750,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 750000
+
+'12':
+  name: 'Hardcore Miner III'
+  item:
+    material: diamond_pickaxe:0
+    amount: 1
+    name: '&cHardcore Miner III'
+    lore:
+      - '&7Vytěž 1,000,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 1000000
+
+'13':
+  name: 'Hardcore Miner IV'
+  item:
+    material: netherite_pickaxe:0
+    amount: 1
+    name: '&4Hardcore Miner IV'
+    lore:
+      - '&7Vytěž 1,500,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 1500000
+
+'14':
+  name: 'Hardcore Miner V'
+  item:
+    material: netherite_pickaxe:0
+    amount: 1
+    name: '&4Hardcore Miner V'
+    lore:
+      - '&7Vytěž 2,500,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 2500000
+
+'15':
+  name: 'Interakce s NPC'
+  item:
+    material: feather:0
+    amount: 1
+    name: '&aInterakce s NPC'
+    lore:
+      - '&7Klikni na jakékoliv prodejní NPC.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Interaction'
+    type: citizens_click
+    required-progress: 1
+
+'16':
+  name: 'Milovník serveru - I'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aMilovník serveru - I'
+    lore:
+      - '&7Připoj se na server 10x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 10
+
+'17':
+  name: 'Milovník serveru - II'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aMilovník serveru - II'
+    lore:
+      - '&7Připoj se na server 30x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 30
+
+'18':
+  name: 'Milovník serveru - III'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aMilovník serveru - III'
+    lore:
+      - '&7Připoj se na server 75x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 75
+
+'19':
+  name: 'Milovník serveru - IV'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aMilovník serveru - IV'
+    lore:
+      - '&7Připoj se na server 150x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 150
+
+'20':
+  name: 'Milovník serveru - V'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aMilovník serveru - V'
+    lore:
+      - '&7Připoj se na server 365x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 365
+
+'21':
+  name: 'Commander - I'
+  item:
+    material: compass:0
+    amount: 1
+    name: '&aCommander - I'
+    lore:
+      - '&7Zobraz si ranky pomocí §e/ranks'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Commander'
+    type: execute-command
+    variable: '/ranks'
+    required-progress: 1
+    
+##########
+
+'22':
+  name: 'Commander - II'
+  item:
+    material: compass:0
+    amount: 1
+    name: '&aCommander - II'
+    lore:
+      - '&7Teleportuj se na svůj důl pomocí §e/mine'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Commander'
+    type: execute-command
+    variable: '/mine'
+    required-progress: 1
+    
+'23':
+  name: 'Perfect Builder I'
+  item:
+    material: coal_ore:0
+    amount: 1
+    name: '&ePerfect Builder I'
+    lore:
+      - '&7Polož 2000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 2000
+    
+'24':
+  name: 'Perfect Builder II'
+  item:
+    material: coal_ore:0
+    amount: 2
+    name: '&cPerfect Builder II'
+    lore:
+      - '&7Polož 10,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 10000
+    
+'25':
+  name: 'Perfect Builder III'
+  item:
+    material: coal_ore:0
+    amount: 2
+    name: '&4Perfect Builder III'
+    lore:
+      - '&7Polož 25,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 25000
+    
+'26':
+  name: 'Long Walk - I'
+  item:
+    material: iron_boots:0
+    amount: 1
+    name: '&eLong Walk - I'
+    lore:
+      - '&7Ujdi přibližně 10k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 10000
+    
+'27':
+  name: 'Long Walk - II'
+  item:
+    material: iron_boots:0
+    amount: 2
+    name: '&eLong Walk - II'
+    lore:
+      - '&7Ujdi přibližně 25k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 25000
+    
+'28':
+  name: 'Long Walk - III'
+  item:
+    material: iron_boots:0
+    amount: 3
+    name: '&cLong Walk - III'
+    lore:
+      - '&7Ujdi přibližně 50k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 50000
+    
+'29':
+  name: 'Crates Master - I'
+  item:
+    material: CHEST:0
+    amount: 1
+    name: '&aCrates Master - I'
+    lore:
+      - '&7Otevřit celkově 50x Crates na spawnu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'crate'
+    type: crazycrates_open
+    required-progress: 50
+    
+'30':
+  name: 'Crates Master - II'
+  item:
+    material: CHEST:0
+    amount: 2
+    name: '&eCrates Master - II'
+    lore:
+      - '&7Otevřit celkově 100x Crates na spawnu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'crate'
+    type: crazycrates_open
+    required-progress: 100
+    
+'31':
+  name: 'Crates Master - III'
+  item:
+    material: CHEST:0
+    amount: 3
+    name: '&eCrates Master - III'
+    lore:
+      - '&7Otevřit celkově 200x Crates na spawnu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'crate'
+    type: crazycrates_open
+    required-progress: 200
+    
+'31':
+  name: 'Vote Manager - I'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aVote Manager - I'
+    lore:
+      - '&7Zahlasuj pro server celkově 50x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 50
+    
+'32':
+  name: 'Vote Manager - II'
+  item:
+    material: SLIME_BALL:0
+    amount: 2
+    name: '&eVote Manager - II'
+    lore:
+      - '&7Zahlasuj pro server celkově 100x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 100
+    
+'33':
+  name: 'Vote Manager - III'
+  item:
+    material: SLIME_BALL:0
+    amount: 3
+    name: '&cVote Manager - III'
+    lore:
+      - '&7Zahlasuj pro server celkově 150x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 150
+    
+'34':
+  name: 'Vote Manager - IV'
+  item:
+    material: SLIME_BALL:0
+    amount: 4
+    name: '&cVote Manager - IV'
+    lore:
+      - '&7Zahlasuj pro server celkově 250x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 250

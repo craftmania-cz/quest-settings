@@ -1,0 +1,235 @@
+settings:
+  reset-interval: 1
+  timezone: Europe/Prague
+  reset-time: '0:00'
+  quest-amount: 5
+'1':
+  name: 'Daily - Social'
+  item:
+    material: book:0
+    name: '&aHodný hráč'
+    lore:
+      - '&7Pozdrav všechny pomocí &b''Ahoj všichni'''
+      - '&7ke splnění questu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Social'
+    type: chat
+    variable: 'Ahoj všichni'
+    required-progress: 1
+    
+'2':
+  name: 'Daily - Miner I'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aDenní dávka kopání - I'
+    lore:
+      - '&7Vytěž 5000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 5000
+    
+'3':
+  name: 'Daily - Walking I'
+  item:
+    material: leather_boots:0
+    amount: 1
+    name: '&aDenní procházka - I'
+    lore:
+      - '&7Ujdi přibližně 2k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 2000
+    
+'4':
+  name: 'Daily - Dieta pro tlusté I'
+  item:
+    material: apple:0
+    amount: 1
+    name: '&aDenní dieta pro tlusté - I'
+    lore:
+      - '&7Sněz 10x jablko a zhubni!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Dieta'
+    type: consume
+    variable: 'APPLE'
+    required-progress: 10
+    
+##########
+    
+'5':
+  name: 'Daily - Miner II'
+  item:
+    material: stone_pickaxe:0
+    amount: 2
+    name: '&aDaily - Miner II'
+    lore:
+      - '&7Vytěž 7000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 7000
+    
+'5':
+  name: 'Daily - Builder I'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aDaily - Builder I'
+    lore:
+      - '&7Polož 500 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 500
+    
+'6':
+  name: 'Daily - Builder II'
+  item:
+    material: stone_pickaxe:0
+    amount: 2
+    name: '&aDaily - Builder II'
+    lore:
+      - '&7Polož 900 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 900
+    
+'7':
+  name: 'Daily - Walking II'
+  item:
+    material: leather_boots:0
+    amount: 2
+    name: '&aDaily - Walking II'
+    lore:
+      - '&7Ujdi přibližně 3k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 3000
+    
+'8':
+  name: 'Daily - Walking III'
+  item:
+    material: leather_boots:0
+    amount: 3
+    name: '&aDenní procházka - III'
+    lore:
+      - '&7Ujdi přibližně 4k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking'
+    type: walk
+    required-progress: 4000
+    
+'9':
+  name: 'Daily - Dieta pro tlusté II'
+  item:
+    material: carrot:0
+    amount: 1
+    name: '&aDenní dieta pro tlusté - II'
+    lore:
+      - '&7Sněz 16x mrkví a zhubni!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Dieta'
+    type: consume
+    variable: 'CARRROT'
+    required-progress: 16
+    
+'10':
+  name: 'Daily - Tloustneš I'
+  item:
+    material: BAKED_POTATO:0
+    amount: 1
+    name: '&aDieta skončila, čas na tloustnutí - I'
+    lore:
+      - '&7Sněz 24x upečených brambor a ztloustni!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Dieta'
+    type: consume
+    variable: 'BAKED_POTATO'
+    required-progress: 24
+    
+'11':
+  name: 'Daily - Engineer I'
+  item:
+    material: CRAFTING_TABLE:0
+    amount: 1
+    name: '&aEngineer I'
+    lore:
+      - '&7Vycrafti 1x Diamond Pickaxe'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Craft'
+    type: craft
+    variable: 'DIAMOND_PICKAXE'
+    required-progress: 1
+    
+'12':
+  name: 'Daily - Crates'
+  item:
+    material: CHEST:0
+    amount: 1
+    name: '&aDaily - Crates'
+    lore:
+      - '&7Otevřit jakoukoliv Crate na spawnu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'crate'
+    type: crazycrates_open
+    required-progress: 1
+    
+'13':
+  name: 'Daily - Votes I'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aDaily - Votes I'
+    lore:
+      - '&7Zahlasuj pro server 2x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 2

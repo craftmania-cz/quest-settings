@@ -1,0 +1,144 @@
+settings:
+  reset-interval: 7
+  timezone: Europe/Prague
+  reset-time: '0:00'
+  quest-amount: 5
+'1':
+  name: 'Weekly - Miner I'
+  item:
+    material: iron_pickaxe:0
+    name: '&eWeekly - Miner I'
+    lore:
+      - '&7Vytěž 10,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 10000
+'2':
+  name: 'Weekly - Miner II'
+  item:
+    material: iron_pickaxe:0
+    name: '&cWeekly - Miner II'
+    lore:
+      - '&7Vytěž 20,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 20000
+'3':
+  name: 'Weekly - Miner III'
+  item:
+    material: iron_pickaxe:0
+    name: '&4Weekly - Miner III'
+    lore:
+      - '&7Vytěž 30,000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-break
+    required-progress: 30000
+    
+'4':
+  name: 'Weekly - Dieta I'
+  item:
+    material: apple:0
+    amount: 1
+    name: '&eTýdenní dieta pro tlusté - I'
+    lore:
+      - '&7Sněz 120x jablek za týden!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Dieta'
+    type: consume
+    variable: 'APPLE'
+    required-progress: 120
+    
+'5':
+  name: 'Weekly - Builder I'
+  item:
+    material: coal_ore:0
+    amount: 1
+    name: '&eWeekly - Builder I'
+    lore:
+      - '&7Polož 3000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 3000
+    
+'5':
+  name: 'Weekly - Builder II'
+  item:
+    material: coal_ore:0
+    amount: 2
+    name: '&eWeekly - Builder II'
+    lore:
+      - '&7Polož 5000 bloků za týden.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner'
+    type: block-place
+    required-progress: 5000
+    
+'6':
+  name: 'Weekly - Crates I'
+  item:
+    material: CHEST:0
+    amount: 1
+    name: '&aWeekly - Crates I'
+    lore:
+      - '&7Otevřit 15x Crates na spawnu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'crate'
+    type: crazycrates_open
+    required-progress: 15
+    
+'7':
+  name: 'Weekly - Crates II'
+  item:
+    material: CHEST:0
+    amount: 2
+    name: '&aWeekly - Crates II'
+    lore:
+      - '&7Otevřit 30x Crates na spawnu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'crate'
+    type: crazycrates_open
+    required-progress: 30
+    
+'8':
+  name: 'Weekly - Votes I'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aWeekly - Votes I'
+    lore:
+      - '&7Zahlasuj pro server 14x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes'
+    type: votifier_vote
+    required-progress: 14

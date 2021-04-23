@@ -1,0 +1,4345 @@
+## Miner
+
+'1':
+  name: 'Miner I'
+  item:
+    material: stone_pickaxe:0
+    amount: 1
+    name: '&aJunior Miner I'
+    lore:
+      - '&7Vytěž 500 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-1'
+    type: block-break
+    variable: none
+    required-progress: 500
+
+'2':
+  name: 'Miner II'
+  item:
+    material: stone_pickaxe:0
+    amount: 2
+    name: '&aJunior Miner II'
+    lore:
+      - '&7Vytěž 1,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-2'
+    type: block-break
+    variable: none
+    required-progress: 1000
+
+'3':
+  name: 'Miner III'
+  item:
+    material: stone_pickaxe:0
+    amount: 3
+    name: '&aJunior Miner III'
+    lore:
+      - '&7Vytěž 5,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-3'
+    type: block-break
+    variable: none
+    required-progress: 5000
+
+'4':
+  name: 'Miner IV'
+  item:
+    material: stone_pickaxe:0
+    amount: 4
+    name: '&aJunior Miner IV'
+    lore:
+      - '&7Vytěž 12,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-4'
+    type: block-break
+    variable: none
+    required-progress: 12000
+
+'5':
+  name: 'Miner V'
+  item:
+    material: iron_pickaxe:0
+    amount: 5
+    name: '&eMiner V'
+    lore:
+      - '&7Vytěž 25,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-5'
+    type: block-break
+    variable: none
+    required-progress: 25000
+
+'6':
+  name: 'Miner VI'
+  item:
+    material: iron_pickaxe:0
+    amount: 6
+    name: '&cMiner VI'
+    lore:
+      - '&7Vytěž 40,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-6'
+    type: block-break
+    variable: none
+    required-progress: 40000
+
+'7':
+  name: 'Miner VII'
+  item:
+    material: diamond_pickaxe:0
+    amount: 7
+    name: '&cMiner VII'
+    lore:
+      - '&7Vytěž 75,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-7'
+    type: block-break
+    variable: none
+    required-progress: 75000
+
+'8':
+  name: 'Miner VIII'
+  item:
+    material: diamond_pickaxe:0
+    amount: 8
+    name: '&cMiner VIII'
+    lore:
+      - '&7Vytěž 100,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-8'
+    type: block-break
+    variable: none
+    required-progress: 100000
+
+'9':
+  name: 'Miner IX'
+  item:
+    material: netherite_pickaxe:0
+    amount: 9
+    name: '&cMiner IX'
+    lore:
+      - '&7Vytěž 150,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-9'
+    type: block-break
+    variable: none
+    required-progress: 150000
+
+'10':
+  name: 'Miner X'
+  item:
+    material: netherite_pickaxe:0
+    amount: 10
+    name: '&cMiner X'
+    lore:
+      - '&7Vytěž 200,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-10'
+    type: block-break
+    variable: none
+    required-progress: 200000
+
+'11':
+  name: 'Miner XI'
+  item:
+    material: netherite_pickaxe:0
+    amount: 11
+    name: '&cMiner XI'
+    lore:
+      - '&7Vytěž 400,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Miner-11'
+    type: block-break
+    variable: none
+    required-progress: 400000
+
+'12':
+  name: 'Obsidianer I'
+  item:
+    material: obsidian:0
+    amount: 1
+    name: '&eObsidianer I'
+    lore:
+      - '&7Vytěž 25 obsidian bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Obsidianer-1'
+    type: block-break
+    variable: obsidian
+    required-progress: 25
+
+'13':
+  name: 'Obsidianer II'
+  item:
+    material: obsidian:0
+    amount: 2
+    name: '&eObsidianer II'
+    lore:
+      - '&7Vytěž 60 obsidian bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Obsidianer-2'
+    type: block-break
+    variable: obsidian
+    required-progress: 60
+
+'13':
+  name: 'Obsidianer III'
+  item:
+    material: obsidian:0
+    amount: 3
+    name: '&eObsidianer III'
+    lore:
+      - '&7Vytěž 150 obsidian bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Obsidianer-3'
+    type: block-break
+    variable: obsidian
+    required-progress: 150
+
+'29':
+  name: 'Wood Farmer I'
+  item:
+    material: oak_log:0
+    amount: 1
+    name: '&eWood Farmer I'
+    lore:
+      - '&7Znič od každého druhu dřeva 10ks.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: '10x Oak Log'
+    type: block-break
+    variable: oak_log
+    required-progress: 10
+  '2':
+    name: '10x Acacia Log'
+    type: block-break
+    variable: acacia_log
+    required-progress: 10
+  '3':
+    name: '10x Brich Log'
+    type: block-break
+    variable: birch_log
+    required-progress: 10
+  '4':
+    name: '10x Dark Oak Log'
+    type: block-break
+    variable: dark_oak_log
+    required-progress: 10
+  '5':
+    name: '10x Jungle Log'
+    type: block-break
+    variable: jungle_log
+    required-progress: 10
+  '6':
+    name: '10x Spruce Log'
+    type: block-break
+    variable: spruce_log
+    required-progress: 10
+
+'30':
+  name: 'Wood Farmer II'
+  item:
+    material: oak_log:0
+    amount: 2
+    name: '&eWood Farmer II'
+    lore:
+      - '&7Znič od každého druhu dřeva 128ks.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: '128x Oak Log'
+    type: block-break
+    variable: oak_log
+    required-progress: 128
+  '2':
+    name: '128x Acacia Log'
+    type: block-break
+    variable: acacia_log
+    required-progress: 128
+  '3':
+    name: '128x Birch Log'
+    type: block-break
+    variable: birch_log
+    required-progress: 128
+  '4':
+    name: '128x Dark Oak Log'
+    type: block-break
+    variable: dark_oak_log
+    required-progress: 128
+  '5':
+    name: '128x Jungle Log'
+    type: block-break
+    variable: jungle_log
+    required-progress: 128
+  '6':
+    name: '128x Spruce Log'
+    type: block-break
+    variable: spruce_log
+    required-progress: 128
+
+'31':
+  name: 'Wood Farmer III'
+  item:
+    material: oak_log:0
+    amount: 3
+    name: '&eWood Farmer III'
+    lore:
+      - '&7Znič od každého druhu dřeva 512ks.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: '512x Oak Log'
+    type: block-break
+    variable: oak_log
+    required-progress: 512
+  '2':
+    name: '512x Acacia Log'
+    type: block-break
+    variable: acacia_log
+    required-progress: 512
+  '3':
+    name: '512x Birch Log'
+    type: block-break
+    variable: birch_log
+    required-progress: 512
+  '4':
+    name: '512 Dark Oak Log'
+    type: block-break
+    variable: dark_oak_log
+    required-progress: 512
+  '5':
+    name: '512x Jungle Log'
+    type: block-break
+    variable: jungle_log
+    required-progress: 512
+  '6':
+    name: '512x Spruce Log'
+    type: block-break
+    variable: spruce_log
+    required-progress: 512
+
+'46':
+  name: 'Ice Time I'
+  item:
+    material: ice:0
+    amount: 1
+    name: '&eIce Time I'
+    lore:
+      - '&7Vytěž 50x Ice.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Ice-1'
+    type: block-break
+    variable: ice
+    required-progress: 50
+
+'47':
+  name: 'Ice Time II'
+  item:
+    material: ice:0
+    amount: 2
+    name: '&eIce Time II'
+    lore:
+      - '&7Vytěž 150x Ice.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Ice-2'
+    type: block-break
+    variable: ice
+    required-progress: 150
+
+'48':
+  name: 'Ice Time III'
+  item:
+    material: ice:0
+    amount: 3
+    name: '&eIce Time III'
+    lore:
+      - '&7Vytěž 400x Ice.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Ice-3'
+    type: block-break
+    variable: ice
+    required-progress: 400
+
+'58':
+  name: 'Never Clever Ever'
+  item:
+    material: bookshelf:0
+    amount: 1
+    name: '&eNever Clever Ever'
+    lore:
+      - '&7Znič 10x Bookshelf.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Bookshelf-1'
+    type: block-break
+    variable: bookshelf
+    required-progress: 10
+
+'59':
+  name: 'Prismarine I'
+  item:
+    material: prismarine_bricks:0
+    amount: 1
+    name: '&ePrismarine I'
+    lore:
+      - '&7Znič 10x všechny druhy Prismarine bloku.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: '10x Prismarine Bricks'
+    type: block-break
+    variable: prismarine_bricks
+    required-progress: 10
+  '2':
+    name: '10x Prismarine'
+    type: block-break
+    variable: prismarine
+    required-progress: 10
+  '2':
+    name: '10x Dark Prismarine'
+    type: block-break
+    variable: dark_prismarine
+    required-progress: 10
+
+'60':
+  name: 'Prismarine II'
+  item:
+    material: prismarine_bricks:0
+    amount: 2
+    name: '&ePrismarine II'
+    lore:
+      - '&7Znič 60x všechny druhy Prismarine bloku.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: '60x Prismarine Bricks'
+    type: block-break
+    variable: prismarine_bricks
+    required-progress: 60
+  '2':
+    name: '60x Prismarine'
+    type: block-break
+    variable: prismarine
+    required-progress: 60
+  '2':
+    name: '60x Dark Prismarine'
+    type: block-break
+    variable: dark_prismarine
+    required-progress: 60
+
+### Logins
+
+'61':
+  name: 'Milovník serveru - I'
+  item:
+    material: honeycomb:0
+    amount: 1
+    name: '&aMilovník serveru - I'
+    lore:
+      - '&7Připoj se na server 10x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 10
+
+'62':
+  name: 'Milovník serveru - II'
+  item:
+    material: honeycomb:0
+    amount: 2
+    name: '&aMilovník serveru - II'
+    lore:
+      - '&7Připoj se na server 30x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 30
+
+'63':
+  name: 'Milovník serveru - III'
+  item:
+    material: honeycomb:0
+    amount: 3
+    name: '&aMilovník serveru - III'
+    lore:
+      - '&7Připoj se na server 75x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 75
+
+'64':
+  name: 'Milovník serveru - IV'
+  item:
+    material: honeycomb:0
+    amount: 4
+    name: '&aMilovník serveru - IV'
+    lore:
+      - '&7Připoj se na server 150x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 150
+
+'65':
+  name: 'Milovník serveru - V'
+  item:
+    material: honeycomb:0
+    amount: 5
+    name: '&aMilovník serveru - V'
+    lore:
+      - '&7Připoj se na server 365x'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Login'
+    type: login
+    required-progress: 365
+    
+########## Commands
+
+'66':
+  name: 'Commander - I'
+  item:
+    material: compass:0
+    amount: 1
+    name: '&aCommander - I'
+    lore:
+      - '&7Použij příkaz §b/spawn'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Commander-1'
+    type: execute-command
+    variable: '/spawn'
+    required-progress: 1
+
+'67':
+  name: 'Commander - II'
+  item:
+    material: compass:0
+    amount: 2
+    name: '&aCommander - II'
+    lore:
+      - '&7Použij příkaz §b/tpa'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Commander-2'
+    type: execute-command
+    variable: '/tpa'
+    required-progress: 1
+
+'68':
+  name: 'Commander - III'
+  item:
+    material: compass:0
+    amount: 3
+    name: '&aCommander - III'
+    lore:
+      - '&7Zobraz si nápovědu k serveu §b/help'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Commander-3'
+    type: execute-command
+    variable: '/help'
+    required-progress: 1
+
+'69':
+  name: 'Commander - IV'
+  item:
+    material: compass:0
+    amount: 4
+    name: '&aCommander - IV'
+    lore:
+      - '&7Použij příkaz §b/vote §7a §b/votepass'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Příkaz vote'
+    type: execute-command
+    variable: '/vote'
+    required-progress: 1
+  '2':
+    name: 'Příkaz votepass'
+    type: execute-command
+    variable: '/votepass'
+    required-progress: 1
+
+### Builder
+    
+'70':
+  name: 'Perfect Builder I'
+  item:
+    material: coal_ore:0
+    amount: 1
+    name: '&ePerfect Builder I'
+    lore:
+      - '&7Polož 1000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'perf-builder-1'
+    type: block-place
+    required-progress: 1000
+    
+'71':
+  name: 'Perfect Builder II'
+  item:
+    material: coal_ore:0
+    amount: 2
+    name: '&cPerfect Builder II'
+    lore:
+      - '&7Polož 2,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'perf-builder-2'
+    type: block-place
+    required-progress: 2000
+    
+'72':
+  name: 'Perfect Builder III'
+  item:
+    material: coal_ore:0
+    amount: 3
+    name: '&4Perfect Builder III'
+    lore:
+      - '&7Polož 4,500 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'perf-builder-3'
+    type: block-place
+    required-progress: 4500
+    
+'73':
+  name: 'Perfect Builder IV'
+  item:
+    material: coal_ore:0
+    amount: 4
+    name: '&4Perfect Builder IV'
+    lore:
+      - '&7Polož 8,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'perf-builder-4'
+    type: block-place
+    required-progress: 8000
+    
+'74':
+  name: 'Perfect Builder V'
+  item:
+    material: coal_ore:0
+    amount: 5
+    name: '&4Perfect Builder V'
+    lore:
+      - '&7Polož 15,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'perf-builder-5'
+    type: block-place
+    required-progress: 15000
+    
+'75':
+  name: 'Perfect Builder VI'
+  item:
+    material: coal_ore:0
+    amount: 6
+    name: '&4Perfect Builder VI'
+    lore:
+      - '&7Polož 30,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'perf-builder-6'
+    type: block-place
+    required-progress: 30000
+    
+'76':
+  name: 'Perfect Builder VII'
+  item:
+    material: coal_ore:0
+    amount: 7
+    name: '&4Perfect Builder VII'
+    lore:
+      - '&7Polož 70,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'perf-builder-7'
+    type: block-place
+    required-progress: 70000
+    
+'77':
+  name: 'Perfect Builder VIII'
+  item:
+    material: coal_ore:0
+    amount: 8
+    name: '&4Perfect Builder VII'
+    lore:
+      - '&7Polož 125,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'perf-builder-8'
+    type: block-place
+    required-progress: 125000
+    
+'78':
+  name: 'Perfect Builder IX'
+  item:
+    material: coal_ore:0
+    amount: 9
+    name: '&4Perfect Builder IX'
+    lore:
+      - '&7Polož 250,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'perf-builder-9'
+    type: block-place
+    required-progress: 250000
+    
+'79':
+  name: 'BedWars'
+  item:
+    material: red_bed:0
+    amount: 1
+    name: '&eBedWars'
+    lore:
+      - '&7Polož 1x červenou postel.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'bedwars-1'
+    type: block-place
+    variable: red_bed
+    required-progress: 1
+    
+'80':
+  name: 'AllBeds'
+  item:
+    material: green_bed:0
+    amount: 1
+    name: '&eAllBeds'
+    lore:
+      - '&7Polož 1x každý druh postele.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Red Bed'
+    type: block-place
+    variable: red_bed
+    required-progress: 1
+  '2':
+    name: 'Black Bed'
+    type: block-place
+    variable: black_bed
+    required-progress: 1
+  '3':
+    name: 'Blue Bed'
+    type: block-place
+    variable: blue_bed
+    required-progress: 1
+  '4':
+    name: 'Brown Bed'
+    type: block-place
+    variable: brown_bed
+    required-progress: 1
+  '5':
+    name: 'Cyan Bed'
+    type: block-place
+    variable: cyan_bed
+    required-progress: 1
+  '6':
+    name: 'Gray Bed'
+    type: block-place
+    variable: gray_bed
+    required-progress: 1
+  '7':
+    name: 'Green Bed'
+    type: block-place
+    variable: green_bed
+    required-progress: 1
+  '8':
+    name: 'Light Blue Bed'
+    type: block-place
+    variable: light_blue_bed
+    required-progress: 1
+  '9':
+    name: 'Light Gray Bed'
+    type: block-place
+    variable: light_gray_bed
+    required-progress: 1
+  '10':
+    name: 'Lime Bed'
+    type: block-place
+    variable: lime_bed
+    required-progress: 1
+  '11':
+    name: 'Magenta Bed'
+    type: block-place
+    variable: magenta_bed
+    required-progress: 1
+  '12':
+    name: 'Orange Bed'
+    type: block-place
+    variable: orange_bed
+    required-progress: 1
+  '13':
+    name: 'Ping Bed'
+    type: block-place
+    variable: pink_bed
+    required-progress: 1
+  '14':
+    name: 'Purple Bed'
+    type: block-place
+    variable: purple_bed
+    required-progress: 1
+  '15':
+    name: 'White Bed'
+    type: block-place
+    variable: white_bed
+    required-progress: 1
+  '16':
+    name: 'Yellow Bed'
+    type: block-place
+    variable: yellow_bed
+    required-progress: 1
+    
+'81':
+  name: 'Anvils I'
+  item:
+    material: anvil:0
+    amount: 1
+    name: '&eAnvils I'
+    lore:
+      - '&7Polož 10x kovadlinu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Anvils-1'
+    type: block-place
+    variable: anvil
+    required-progress: 10
+    
+'82':
+  name: 'Anvils II'
+  item:
+    material: anvil:0
+    amount: 2
+    name: '&eAnvils II'
+    lore:
+      - '&7Polož 50x kovadlinu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Anvils-2'
+    type: block-place
+    variable: anvil
+    required-progress: 50
+    
+'83':
+  name: 'Anvils III'
+  item:
+    material: anvil:0
+    amount: 3
+    name: '&eAnvils III'
+    lore:
+      - '&7Polož 150x kovadlinu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Anvils-3'
+    type: block-place
+    variable: anvil
+    required-progress: 150
+    
+'84':
+  name: 'Anvils IV'
+  item:
+    material: anvil:0
+    amount: 4
+    name: '&eAnvils IV'
+    lore:
+      - '&7Polož 400x kovadlinu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Anvils-4'
+    type: block-place
+    variable: anvil
+    required-progress: 400
+    
+'85':
+  name: 'Barrels'
+  item:
+    material: barrel:0
+    amount: 1
+    name: '&eBarrels'
+    lore:
+      - '&7Polož 35x barel.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Barrels-1'
+    type: block-place
+    variable: barrel
+    required-progress: 35
+    
+'86':
+  name: 'Chests I'
+  item:
+    material: chest:0
+    amount: 1
+    name: '&eChests I'
+    lore:
+      - '&7Polož 10x truhel.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Chests-1'
+    type: block-place
+    variable: chest
+    required-progress: 10
+    
+'87':
+  name: 'Chests II'
+  item:
+    material: chest:0
+    amount: 2
+    name: '&eChests II'
+    lore:
+      - '&7Polož 50x truhlu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Chests-2'
+    type: block-place
+    variable: chest
+    required-progress: 50
+    
+'88':
+  name: 'Chests III'
+  item:
+    material: chest:0
+    amount: 3
+    name: '&eChests III'
+    lore:
+      - '&7Polož 125x truhlu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Chests-3'
+    type: block-place
+    variable: chest
+    required-progress: 125
+    
+'89':
+  name: 'Chests IV'
+  item:
+    material: chest:0
+    amount: 4
+    name: '&eChests IV'
+    lore:
+      - '&7Polož 400x truhlu.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Chests-4'
+    type: block-place
+    variable: chest
+    required-progress: 400
+    
+'90':
+  name: 'Dragon Head'
+  item:
+    material: dragon_head:0
+    amount: 1
+    name: '&eDragon Head'
+    lore:
+      - '&7Polož 1x Dragon Head'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Dragon Head'
+    type: block-place
+    variable: dragon_head
+    required-progress: 1
+
+##### Walking
+    
+'91':
+  name: 'Long Walk - I'
+  item:
+    material: leather_boots:0
+    amount: 1
+    name: '&eLong Walk - I'
+    lore:
+      - '&7Ujdi přibližně 5k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking-1'
+    type: walk
+    required-progress: 5000
+    
+'92':
+  name: 'Long Walk - II'
+  item:
+    material: iron_boots:0
+    amount: 2
+    name: '&eLong Walk - II'
+    lore:
+      - '&7Ujdi přibližně 12k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking-2'
+    type: walk
+    required-progress: 12000
+    
+'93':
+  name: 'Long Walk - III'
+  item:
+    material: diamond_boots:0
+    amount: 3
+    name: '&cLong Walk - III'
+    lore:
+      - '&7Ujdi přibližně 30k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking-3'
+    type: walk
+    required-progress: 30000
+    
+'94':
+  name: 'Long Walk - IV'
+  item:
+    material: netherite_boots:0
+    amount: 4
+    name: '&cLong Walk - IV'
+    lore:
+      - '&7Ujdi přibližně 75k bloků po serveru.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Walking-4'
+    type: walk
+    required-progress: 75000
+
+#### Votes
+    
+'94':
+  name: 'Vote Manager - I'
+  item:
+    material: SLIME_BALL:0
+    amount: 1
+    name: '&aVote Manager - I'
+    lore:
+      - '&7Zahlasuj pro server celkově 25x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes-1'
+    type: votifier_vote
+    required-progress: 25
+    
+'95':
+  name: 'Vote Manager - II'
+  item:
+    material: SLIME_BALL:0
+    amount: 2
+    name: '&eVote Manager - II'
+    lore:
+      - '&7Zahlasuj pro server celkově 50x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes-2'
+    type: votifier_vote
+    required-progress: 50
+    
+'96':
+  name: 'Vote Manager - III'
+  item:
+    material: SLIME_BALL:0
+    amount: 3
+    name: '&cVote Manager - III'
+    lore:
+      - '&7Zahlasuj pro server celkově 100x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes-3'
+    type: votifier_vote
+    required-progress: 100
+    
+'97':
+  name: 'Vote Manager - IV'
+  item:
+    material: SLIME_BALL:0
+    amount: 4
+    name: '&cVote Manager - IV'
+    lore:
+      - '&7Zahlasuj pro server celkově 200x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes-4'
+    type: votifier_vote
+    required-progress: 200
+    
+'98':
+  name: 'Vote Manager - V'
+  item:
+    material: SLIME_BALL:0
+    amount: 5
+    name: '&cVote Manager - V'
+    lore:
+      - '&7Zahlasuj pro server celkově 300x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes-5'
+    type: votifier_vote
+    required-progress: 300
+    
+'99':
+  name: 'Vote Manager - VI'
+  item:
+    material: SLIME_BALL:0
+    amount: 6
+    name: '&cVote Manager - VI'
+    lore:
+      - '&7Zahlasuj pro server celkově 500x!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'votes-6'
+    type: votifier_vote
+    required-progress: 500
+
+### Consume
+    
+'100':
+  name: 'Eat This - I'
+  item:
+    material: APPLE:0
+    amount: 1
+    name: '&aEat This - I'
+    lore:
+      - '&7Sněz 30x jakýkoliv druh jídla!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'consume-1'
+    type: consume
+    required-progress: 30
+    
+'101':
+  name: 'Eat This - II'
+  item:
+    material: APPLE:0
+    amount: 2
+    name: '&aEat This - II'
+    lore:
+      - '&7Sněz 75x jakýkoliv druh jídla!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'consume-2'
+    type: consume
+    required-progress: 75
+    
+'102':
+  name: 'Eat This - III'
+  item:
+    material: APPLE:0
+    amount: 3
+    name: '&aEat This - III'
+    lore:
+      - '&7Sněz 150x jakýkoliv druh jídla!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'consume-3'
+    type: consume
+    required-progress: 150
+    
+'103':
+  name: 'Eat This - IV'
+  item:
+    material: APPLE:0
+    amount: 4
+    name: '&aEat This - IV'
+    lore:
+      - '&7Sněz 450x jakýkoliv druh jídla!'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'consume-4'
+    type: consume
+    required-progress: 450
+    
+'104':
+  name: 'Bread - I'
+  item:
+    material: BREAD:0
+    amount: 1
+    name: '&aBread - I'
+    lore:
+      - '&7Sněz 25x chleba.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'bread-1'
+    type: consume
+    variable: bread
+    required-progress: 25
+    
+'105':
+  name: 'Bread - II'
+  item:
+    material: BREAD:0
+    amount: 2
+    name: '&aBread - II'
+    lore:
+      - '&7Sněz 100x chleba.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'bread-2'
+    type: consume
+    variable: bread
+    required-progress: 100
+    
+'106':
+  name: 'Melon - I'
+  item:
+    material: MELON_SLICE:0
+    amount: 1
+    name: '&aMelon - I'
+    lore:
+      - '&7Sněz 128x meloun.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'melon-1'
+    type: consume
+    variable: MELON_SLICE
+    required-progress: 128
+
+### Crafting
+    
+'107':
+  name: 'Workbench - I'
+  item:
+    material: CRAFTING_TABLE:0
+    amount: 1
+    name: '&aWorkbench - I'
+    lore:
+      - '&7Použij 25x Crafting Table'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'craft-1'
+    type: craft
+    required-progress: 25
+    
+'108':
+  name: 'Workbench - II'
+  item:
+    material: CRAFTING_TABLE:0
+    amount: 2
+    name: '&aWorkbench - II'
+    lore:
+      - '&7Použij 50x Crafting Table'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'craft-2'
+    type: craft
+    required-progress: 50
+    
+'109':
+  name: 'Workbench - III'
+  item:
+    material: CRAFTING_TABLE:0
+    amount: 3
+    name: '&aWorkbench - III'
+    lore:
+      - '&7Použij 100x Crafting Table'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'craft-3'
+    type: craft
+    required-progress: 100
+    
+'110':
+  name: 'Iron Blocks - I'
+  item:
+    material: IRON_BLOCK:0
+    amount: 1
+    name: '&aIronBlocks - I'
+    lore:
+      - '&7Vycrafti 1x Iron Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ironblock-1'
+    type: craft
+    variable: iron_block
+    required-progress: 1
+    
+'111':
+  name: 'Iron Blocks - II'
+  item:
+    material: IRON_BLOCK:0
+    amount: 2
+    name: '&aIron Blocks - II'
+    lore:
+      - '&7Vycrafti 12x Iron Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ironblock-1'
+    type: craft
+    variable: iron_block
+    required-progress: 12
+    
+'112':
+  name: 'Iron Blocks - III'
+  item:
+    material: IRON_BLOCK:0
+    amount: 3
+    name: '&aIron Blocks - III'
+    lore:
+      - '&7Vycrafti 64x Iron Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ironblock-1'
+    type: craft
+    variable: iron_block
+    required-progress: 64
+    
+'113':
+  name: 'Gold Blocks - I'
+  item:
+    material: GOLD_BLOCK:0
+    amount: 1
+    name: '&aGold Blocks - I'
+    lore:
+      - '&7Vycrafti 1x Gold Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'goldblock-1'
+    type: craft
+    variable: gold_block
+    required-progress: 1
+    
+'114':
+  name: 'Gold Blocks - II'
+  item:
+    material: GOLD_BLOCK:0
+    amount: 2
+    name: '&aGold Blocks - II'
+    lore:
+      - '&7Vycrafti 24x Gold Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'goldblock-2'
+    type: craft
+    variable: gold_block
+    required-progress: 24
+    
+'115':
+  name: 'Lapis Blocks - I'
+  item:
+    material: LAPIS_BLOCK:0
+    amount: 1
+    name: '&aLapis Blocks - I'
+    lore:
+      - '&7Vycrafti 1x Lapis Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'lapisblock-1'
+    type: craft
+    variable: lapis_block
+    required-progress: 1
+    
+'116':
+  name: 'Lapis Blocks - II'
+  item:
+    material: LAPIS_BLOCK:0
+    amount: 2
+    name: '&aLapis Blocks - II'
+    lore:
+      - '&7Vycrafti 32x Lapis Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'lapisblock-1'
+    type: craft
+    variable: lapis_block
+    required-progress: 32
+    
+'117':
+  name: 'Emerald Blocks - I'
+  item:
+    material: EMERALD_BLOCK:0
+    amount: 1
+    name: '&aEmerald Blocks - I'
+    lore:
+      - '&7Vycrafti 1x Emerald Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'emeraldblock-1'
+    type: craft
+    variable: emerald_block
+    required-progress: 1
+    
+'118':
+  name: 'Emerald Blocks - II'
+  item:
+    material: EMERALD_BLOCK:0
+    amount: 2
+    name: '&aEmerald Blocks - II'
+    lore:
+      - '&7Vycrafti 12x Emerald Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'emeraldblock-2'
+    type: craft
+    variable: emerald_block
+    required-progress: 12
+    
+'119':
+  name: 'Emerald Blocks - III'
+  item:
+    material: EMERALD_BLOCK:0
+    amount: 3
+    name: '&aEmerald Blocks - III'
+    lore:
+      - '&7Vycrafti 64x Emerald Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'emeraldblock-3'
+    type: craft
+    variable: emerald_block
+    required-progress: 64
+    
+'120':
+  name: 'Diamond Blocks - I'
+  item:
+    material: DIAMOND_BLOCK:0
+    amount: 1
+    name: '&aDiamond Blocks - I'
+    lore:
+      - '&7Vycrafti 1x Diamond Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'diamondblock-1'
+    type: craft
+    variable: diamond_block
+    required-progress: 1
+    
+'121':
+  name: 'Diamond Blocks - II'
+  item:
+    material: DIAMOND_BLOCK:0
+    amount: 2
+    name: '&aDiamond Blocks - II'
+    lore:
+      - '&7Vycrafti 10x Diamond Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'diamondblock-2'
+    type: craft
+    variable: diamond_block
+    required-progress: 10
+    
+'122':
+  name: 'Diamond Blocks - III'
+  item:
+    material: DIAMOND_BLOCK:0
+    amount: 3
+    name: '&aDiamond Blocks - III'
+    lore:
+      - '&7Vycrafti 32x Diamond Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'diamondblock-3'
+    type: craft
+    variable: diamond_block
+    required-progress: 32
+    
+'123':
+  name: 'Diamond Blocks - IV'
+  item:
+    material: DIAMOND_BLOCK:0
+    amount: 4
+    name: '&aDiamond Blocks - IV'
+    lore:
+      - '&7Vycrafti 64x Diamond Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'diamondblock-4'
+    type: craft
+    variable: diamond_block
+    required-progress: 64
+    
+'124':
+  name: 'Netherite Blocks - I'
+  item:
+    material: NETEHRITE_BLOCK:0
+    amount: 1
+    name: '&aNetherite Blocks - I'
+    lore:
+      - '&7Vycrafti 1x Netherite Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'netheriteblock-1'
+    type: craft
+    variable: netherite_block
+    required-progress: 1
+    
+'125':
+  name: 'Netherite Blocks - II'
+  item:
+    material: NETEHRITE_BLOCK:0
+    amount: 2
+    name: '&aNetherite Blocks - II'
+    lore:
+      - '&7Vycrafti 8x Netherite Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'netheriteblock-2'
+    type: craft
+    variable: netherite_block
+    required-progress: 8
+    
+'126':
+  name: 'Netherite Blocks - III'
+  item:
+    material: NETEHRITE_BLOCK:0
+    amount: 3
+    name: '&aNetherite Blocks - III'
+    lore:
+      - '&7Vycrafti 20x Netherite Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'netheriteblock-3'
+    type: craft
+    variable: netherite_block
+    required-progress: 20
+    
+'127':
+  name: 'Netherite Blocks - IV'
+  item:
+    material: NETEHRITE_BLOCK:0
+    amount: 4
+    name: '&aNetherite Blocks - IV'
+    lore:
+      - '&7Vycrafti 32x Netherite Block.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'netheriteblock-4'
+    type: craft
+    variable: netherite_block
+    required-progress: 32
+    
+'128':
+  name: 'Scaffolding'
+  item:
+    material: SCAFFOLDING:0
+    amount: 1
+    name: '&aScaffolding'
+    lore:
+      - '&7Vycrafti 12x Scaffolding'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'scaffolding-1'
+    type: craft
+    variable: SCAFFOLDING
+    required-progress: 12
+    
+'129':
+  name: 'Dried Kelp Block - I'
+  item:
+    material: DRIED_KELP_BLOCK:0
+    amount: 1
+    name: '&aDried Kelp Block - I'
+    lore:
+      - '&7Vycrafti 10x Dried Kelp Block'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'dried_kelp_block-1'
+    type: craft
+    variable: DRIED_KELP_BLOCK
+    required-progress: 10
+    
+'130':
+  name: 'Dried Kelp Block - II'
+  item:
+    material: DRIED_KELP_BLOCK:0
+    amount: 2
+    name: '&aDried Kelp Block - II'
+    lore:
+      - '&7Vycrafti 64x Dried Kelp Block'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'dried_kelp_block-2'
+    type: craft
+    variable: DRIED_KELP_BLOCK
+    required-progress: 64
+    
+'131':
+  name: 'Jukebox'
+  item:
+    material: JUKEBOX:0
+    amount: 1
+    name: '&aJukebox'
+    lore:
+      - '&7Vycrafti 1x Jukebox'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'jukebox-1'
+    type: craft
+    variable: JUKEBOX
+    required-progress: 1
+    
+'132':
+  name: 'Compass'
+  item:
+    material: COMPASS:0
+    amount: 1
+    name: '&aCompass'
+    lore:
+      - '&7Vycrafti 1x Compass'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'compass-1'
+    type: craft
+    variable: COMPASS
+    required-progress: 1
+    
+'133':
+  name: 'Enchanting Table'
+  item:
+    material: ENCHANTING_TABLE:0
+    amount: 1
+    name: '&aEnchanting Table'
+    lore:
+      - '&7Vycrafti 1x Enchanting Table'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'enchant-1'
+    type: craft
+    variable: ENCHANTING_TABLE
+    required-progress: 1
+    
+'134':
+  name: 'Beacon'
+  item:
+    material: BEACON:0
+    amount: 1
+    name: '&aBeacon'
+    lore:
+      - '&7Vycrafti 1x Beacon'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'beacon-1'
+    type: craft
+    variable: BEACON
+    required-progress: 1
+    
+'135':
+  name: 'Respawn Anchor'
+  item:
+    material: RESPAWN_ANCHOR:0
+    amount: 1
+    name: '&aRespawn Anchor'
+    lore:
+      - '&7Vycrafti 1x Respawn Anchor'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'anchor-1'
+    type: craft
+    variable: RESPAWN_ANCHOR
+    required-progress: 1
+    
+'136':
+  name: 'Redstone - I'
+  item:
+    material: PISTON:0
+    amount: 1
+    name: '&aRedstone - I'
+    lore:
+      - '&7Vycrafti 12x Piston'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'redstone-1'
+    type: craft
+    variable: PISTON
+    required-progress: 12
+    
+'137':
+  name: 'Redstone - II'
+  item:
+    material: PISTON:0
+    amount: 2
+    name: '&aRedstone - II'
+    lore:
+      - '&7Vycrafti 12x Sticky Piston'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'redstone-2'
+    type: craft
+    variable: STICKY_PISTON
+    required-progress: 12
+    
+'138':
+  name: 'Redstone - III'
+  item:
+    material: REDSTONE_LAMP:0
+    amount: 3
+    name: '&aRedstone - III'
+    lore:
+      - '&7Vycrafti 32x Redstone Lamp'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'redstone-3'
+    type: craft
+    variable: REDSTONE_LAMP
+    required-progress: 32
+    
+'139':
+  name: 'Redstone - IV'
+  item:
+    material: REDSTONE_TORCH:0
+    amount: 4
+    name: '&aRedstone - IV'
+    lore:
+      - '&7Vycrafti 128x Redstone Torch'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'redstone-4'
+    type: craft
+    variable: REDSTONE_TORCH
+    required-progress: 128
+    
+'140':
+  name: 'Redstone - V'
+  item:
+    material: TRAPPED_CHEST:0
+    amount: 5
+    name: '&aRedstone - V'
+    lore:
+      - '&7Vycrafti 8x Trapped Chest'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'redstone-5'
+    type: craft
+    variable: TRAPPED_CHEST
+    required-progress: 8
+    
+'141':
+  name: 'Redstone - VI'
+  item:
+    material: REPEATER:0
+    amount: 6
+    name: '&aRedstone - VI'
+    lore:
+      - '&7Vycrafti 12x Repeater'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'redstone-6'
+    type: craft
+    variable: REPEATER
+    required-progress: 12
+    
+'142':
+  name: 'TNT Explosion'
+  item:
+    material: TNT:0
+    amount: 1
+    name: '&aTNT Explosion'
+    lore:
+      - '&7Vycrafti 10x TNT'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'explosion-1'
+    type: craft
+    variable: TNT
+    required-progress: 10
+    
+'143':
+  name: 'Grindstone'
+  item:
+    material: GRINDSTONE:0
+    amount: 1
+    name: '&aGrindstone'
+    lore:
+      - '&7Vycrafti 1x Grindstone'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'grindstone-1'
+    type: craft
+    variable: GRINDSTONE
+    required-progress: 1
+    
+'144':
+  name: 'Loom'
+  item:
+    material: LOOM:0
+    amount: 1
+    name: '&aLoom'
+    lore:
+      - '&7Vycrafti 1x Loom'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'loom-1'
+    type: craft
+    variable: LOOM
+    required-progress: 1
+    
+'145':
+  name: 'Smoker'
+  item:
+    material: SMOKER:0
+    amount: 1
+    name: '&aSmoker - lepší pec!'
+    lore:
+      - '&7Vycrafti 1x Smoker'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'smoker-1'
+    type: craft
+    variable: SMOKER
+    required-progress: 1
+    
+'146':
+  name: 'Beehive'
+  item:
+    material: BEEHIVE:0
+    amount: 1
+    name: '&aBeehive - včelky mají domov!'
+    lore:
+      - '&7Vycrafti 1x Beehive'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'beehive-1'
+    type: craft
+    variable: BEEHIVE
+    required-progress: 1
+    
+'147':
+  name: 'Honey King - I'
+  item:
+    material: HONEY_BLOCK:0
+    amount: 1
+    name: '&aHoney King - I'
+    lore:
+      - '&7Vycrafti 1x Honey Block'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'honey-king-1'
+    type: craft
+    variable: HONEY_BLOCK
+    required-progress: 1
+    
+'148':
+  name: 'Honey King - II'
+  item:
+    material: HONEY_BLOCK:0
+    amount: 2
+    name: '&aHoney King - II'
+    lore:
+      - '&7Vycrafti 8x Honey Block'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'honey-king-2'
+    type: craft
+    variable: HONEY_BLOCK
+    required-progress: 8
+    
+'149':
+  name: 'Honey King - III'
+  item:
+    material: HONEY_BLOCK:0
+    amount: 3
+    name: '&aHoney King - III'
+    lore:
+      - '&7Vycrafti 32x Honey Block'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'honey-king-3'
+    type: craft
+    variable: HONEY_BLOCK
+    required-progress: 32
+    
+'150':
+  name: 'Honey King - IV'
+  item:
+    material: HONEY_BLOCK:0
+    amount: 4
+    name: '&aHoney King - IV'
+    lore:
+      - '&7Vycrafti 128x Honey Block'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'honey-king-4'
+    type: craft
+    variable: HONEY_BLOCK
+    required-progress: 128
+    
+'151':
+  name: 'Honey King - V'
+  item:
+    material: HONEYCOMB_BLOCK:0
+    amount: 5
+    name: '&aHoney King - V'
+    lore:
+      - '&7Vycrafti 4x Honeycomb Block'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'honey-king-5'
+    type: craft
+    variable: HONEYCOMB_BLOCK
+    required-progress: 4
+    
+'152':
+  name: 'Honey King - VI'
+  item:
+    material: HONEYCOMB_BLOCK:0
+    amount: 5
+    name: '&aHoney King - VI'
+    lore:
+      - '&7Vycrafti 24x Honeycomb Block'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'honey-king-6'
+    type: craft
+    variable: HONEYCOMB_BLOCK
+    required-progress: 24
+    
+'153':
+  name: 'ArmorStand'
+  item:
+    material: ARMOR_STAND:0
+    amount: 1
+    name: '&aArmorStand'
+    lore:
+      - '&7Vycrafti 4x ArmorStand'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'armor_stand'
+    type: craft
+    variable: ARMOR_STAND
+    required-progress: 4
+    
+'154':
+  name: 'Bows'
+  item:
+    material: BOW:0
+    amount: 1
+    name: '&aBows'
+    lore:
+      - '&7Vycrafti 4x Bow'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'bows'
+    type: craft
+    variable: BOW
+    required-progress: 4
+    
+'155':
+  name: 'Clock'
+  item:
+    material: CLOCK:0
+    amount: 1
+    name: '&aHodiny tikají, tick tock? CO!'
+    lore:
+      - '&7Vycrafti 1x Clock'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'clock'
+    type: craft
+    variable: CLOCK
+    required-progress: 1
+    
+'156':
+  name: 'Flint & Steel - I'
+  item:
+    material: FLINT_AND_STEEL:0
+    amount: 1
+    name: '&aFlint & Steel - I'
+    lore:
+      - '&7Vycrafti 1x Flint & Steel'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'flint-steel-1'
+    type: craft
+    variable: FLINT_AND_STEEL
+    required-progress: 1
+    
+'157':
+  name: 'Flint & Steel - II'
+  item:
+    material: FLINT_AND_STEEL:0
+    amount: 2
+    name: '&aFlint & Steel - II'
+    lore:
+      - '&7Vycrafti 10x Flint & Steel'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'flint-steel-2'
+    type: craft
+    variable: FLINT_AND_STEEL
+    required-progress: 10
+    
+'158':
+  name: 'CakeLand - I'
+  item:
+    material: CAKE:0
+    amount: 1
+    name: '&aCakeLand - I'
+    lore:
+      - '&7Vycrafti 1x Cake'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'cake-1'
+    type: craft
+    variable: CAKE
+    required-progress: 1
+    
+'159':
+  name: 'CakeLand - II'
+  item:
+    material: CAKE:0
+    amount: 2
+    name: '&aCakeLand - II'
+    lore:
+      - '&7Vycrafti 8x Cake'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'cake-2'
+    type: craft
+    variable: CAKE
+    required-progress: 8
+    
+'160':
+  name: 'CakeLand - III'
+  item:
+    material: CAKE:0
+    amount: 3
+    name: '&aCakeLand - III'
+    lore:
+      - '&7Vycrafti 32x Cake'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'cake-3'
+    type: craft
+    variable: CAKE
+    required-progress: 32
+    
+'161':
+  name: 'CakeLand - IV'
+  item:
+    material: CAKE:0
+    amount: 3
+    name: '&aCakeLand - IV'
+    lore:
+      - '&7Vycrafti 128x Cake'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'cake-3'
+    type: craft
+    variable: CAKE
+    required-progress: 32
+    
+'162':
+  name: 'Minecart'
+  item:
+    material: MINECART:0
+    amount: 1
+    name: '&aMinecart'
+    lore:
+      - '&7Vycrafti 2x Minecart'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'minecart-1'
+    type: craft
+    variable: MINECART
+    required-progress: 2
+    
+'163':
+  name: 'Chain'
+  item:
+    material: CHAIN:0
+    amount: 1
+    name: '&aChain'
+    lore:
+      - '&7Vycrafti 256x Chain'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'chain-1'
+    type: craft
+    variable: CHAIN
+    required-progress: 256
+    
+'164':
+  name: 'Ender Eye'
+  item:
+    material: ENDER_EYE:0
+    amount: 1
+    name: '&aEnder Eye'
+    lore:
+      - '&7Vycrafti 10x Ender Eye'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ender-eye-1'
+    type: craft
+    variable: ENDER_EYE
+    required-progress: 10
+    
+'165':
+  name: 'Map Manager'
+  item:
+    material: MAP:0
+    amount: 1
+    name: '&aMap Manager'
+    lore:
+      - '&7Vycrafti 10x Mapu'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'map-1'
+    type: craft
+    variable: MAP
+    required-progress: 10
+    
+'166':
+  name: 'Turtle Helmet'
+  item:
+    material: TURTLE_HELMET:0
+    amount: 1
+    name: '&aTurtle Helmet'
+    lore:
+      - '&7Vycrafti 1x Turtle Helmet'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'turtle-1'
+    type: craft
+    variable: TURTLE_HELMET
+    required-progress: 1
+    
+'167':
+  name: 'Writable Book'
+  item:
+    material: WRITABLE_BOOK:0
+    amount: 1
+    name: '&aWritable Book'
+    lore:
+      - '&7Vycrafti 5x Writable Book'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'writ-able-1'
+    type: craft
+    variable: WRITABLE_BOOK
+    required-progress: 5
+    
+'168':
+  name: 'Paintingos'
+  item:
+    material: PAINTING:0
+    amount: 1
+    name: '&aPaintingos'
+    lore:
+      - '&7Vycrafti 5x Painting'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'painting-1'
+    type: craft
+    variable: PAINTING
+    required-progress: 5
+
+### Fish
+    
+'169':
+  name: 'Fisherman - I'
+  item:
+    material: FISHING_ROD:0
+    amount: 1
+    name: '&aFisherman - I'
+    lore:
+      - '&7Chyť 10x rybu pomocí prutu'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'fish-1'
+    type: fish
+    required-progress: 10
+    
+'170':
+  name: 'Fisherman - II'
+  item:
+    material: FISHING_ROD:0
+    amount: 2
+    name: '&aFisherman - II'
+    lore:
+      - '&7Chyť 30x rybu pomocí prutu'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'fish-2'
+    type: fish
+    required-progress: 30
+    
+'171':
+  name: 'Fisherman - III'
+  item:
+    material: FISHING_ROD:0
+    amount: 3
+    name: '&aFisherman - III'
+    lore:
+      - '&7Chyť 75x rybu pomocí prutu'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'fish-3'
+    type: fish
+    required-progress: 75
+
+### Sneak
+    
+'172':
+  name: 'Secret Agent'
+  item:
+    material: POTION:0
+    amount: 1
+    name: '&aSecret Agent'
+    lore:
+      - '&7Projdi skrčeně 100 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sneak'
+    type: sneak
+    required-progress: 100
+
+### Sprint
+    
+'173':
+  name: 'Faaaast I'
+  item:
+    material: FEATHER:0
+    amount: 1
+    name: '&aFaaaast I'
+    lore:
+      - '&7Uběhni 5,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sprint-1'
+    type: sprint
+    required-progress: 5000
+    
+'174':
+  name: 'Faaaast II'
+  item:
+    material: FEATHER:0
+    amount: 1
+    name: '&aFaaaast II'
+    lore:
+      - '&7Uběhni 25,000 bloků.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sprint-2'
+    type: sprint
+    required-progress: 25000
+
+#### Playtime
+    
+'175':
+  name: 'Playtime - I'
+  item:
+    material: WATCH:0
+    amount: 1
+    name: '&aPlaytime - I'
+    lore:
+      - '&7Odehraj na serveru 60 minut.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-1'
+    type: playtime
+    required-progress: 60
+    
+'176':
+  name: 'Playtime - II'
+  item:
+    material: WATCH:0
+    amount: 2
+    name: '&aPlaytime - II'
+    lore:
+      - '&7Odehraj na serveru 3 hodiny (180 minut).'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-2'
+    type: playtime
+    required-progress: 180
+    
+'177':
+  name: 'Playtime - III'
+  item:
+    material: WATCH:0
+    amount: 3
+    name: '&aPlaytime - III'
+    lore:
+      - '&7Odehraj na serveru 12 hodin.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-3'
+    type: playtime
+    required-progress: 720
+    
+'178':
+  name: 'Playtime - IV'
+  item:
+    material: WATCH:0
+    amount: 4
+    name: '&aPlaytime - IV'
+    lore:
+      - '&7Odehraj na serveru 24 hodin.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-4'
+    type: playtime
+    required-progress: 1440
+    
+'179':
+  name: 'Playtime - V'
+  item:
+    material: WATCH:0
+    amount: 5
+    name: '&aPlaytime - V'
+    lore:
+      - '&7Odehraj na serveru 3 dny.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-5'
+    type: playtime
+    required-progress: 4320
+    
+'180':
+  name: 'Playtime - VI'
+  item:
+    material: WATCH:0
+    amount: 6
+    name: '&aPlaytime - VI'
+    lore:
+      - '&7Odehraj na serveru 7 dní.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-6'
+    type: playtime
+    required-progress: 10080
+    
+'181':
+  name: 'Playtime - VII'
+  item:
+    material: WATCH:0
+    amount: 7
+    name: '&aPlaytime - VII'
+    lore:
+      - '&7Odehraj na serveru 12 dní.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-7'
+    type: playtime
+    required-progress: 17280
+    
+'182':
+  name: 'Playtime - VIII'
+  item:
+    material: WATCH:0
+    amount: 8
+    name: '&aPlaytime - VIII'
+    lore:
+      - '&7Odehraj na serveru 20 dní.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-8'
+    type: playtime
+    required-progress: 28800
+    
+'183':
+  name: 'Playtime - IX'
+  item:
+    material: WATCH:0
+    amount: 9
+    name: '&aPlaytime - IX'
+    lore:
+      - '&7Odehraj na serveru 30 dní.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'time-9'
+    type: playtime
+    required-progress: 43200
+
+### damage players
+    
+'184':
+  name: 'Punch Me'
+  item:
+    material: IRON_SWORD:0
+    amount: 1
+    name: '&aPunch Me'
+    lore:
+      - '&7Bouchni do 100 hráčů.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'dmg-1'
+    type: damage-player
+    required-progress: 100
+
+### enchant
+    
+'185':
+  name: 'Enchanted - I'
+  item:
+    material: IRON_INGOT:0
+    amount: 1
+    name: '&aEnchanted - I'
+    lore:
+      - '&7Oenchantuj 2x Iron Sword.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ench-1'
+    type: enchant
+    variable: IRON_SWORD
+    required-progress: 2
+    
+'186':
+  name: 'Enchanted - II'
+  item:
+    material: DIAMOND:0
+    amount: 1
+    name: '&aEnchanted - II'
+    lore:
+      - '&7Oenchantuj 2x Diamond Sword.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ench-2'
+    type: enchant
+    variable: DIAMOND_SWORD
+    required-progress: 2
+    
+'187':
+  name: 'Enchanted - III'
+  item:
+    material: NETHERITE_INGOT:0
+    amount: 1
+    name: '&aEnchanted - III'
+    lore:
+      - '&7Oenchantuj 4x Netherite Sword.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ench-3'
+    type: enchant
+    variable: NETHERITE_SWORD
+    required-progress: 4
+    
+'188':
+  name: 'Enchanted - IV'
+  item:
+    material: NETHERITE_INGOT:0
+    amount: 1
+    name: '&aEnchanted - IV'
+    lore:
+      - '&7Oenchantuj 2x Netherite Pickaxe.'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ench-4'
+    type: enchant
+    variable: NETHERITE_PICKAXE
+    required-progress: 2
+
+### KILL MOB
+    
+'189':
+  name: 'Hunter - Bat I'
+  item:
+    material: WOODEN_SWORD:0
+    amount: 1
+    name: '&aHunter - Bat I'
+    lore:
+      - '&7Zabij 10x Netopýra'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'bat-1'
+    type: kill-mob
+    variable: BAT
+    required-progress: 10
+    
+'190':
+  name: 'Hunter - Pig I'
+  item:
+    material: PORKCHOP:0
+    amount: 1
+    name: '&aHunter - Pig I'
+    lore:
+      - '&7Zabij 10x Prase'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'pig-1'
+    type: kill-mob
+    variable: PIG
+    required-progress: 10
+    
+'191':
+  name: 'Hunter - Pig II'
+  item:
+    material: PORKCHOP:0
+    amount: 2
+    name: '&aHunter - Pig II'
+    lore:
+      - '&7Zabij 50x Prase'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'pig-2'
+    type: kill-mob
+    variable: PIG
+    required-progress: 50
+    
+'192':
+  name: 'Hunter - Pig III'
+  item:
+    material: PORKCHOP:0
+    amount: 3
+    name: '&aHunter - Pig III'
+    lore:
+      - '&7Zabij 200x Prase'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'pig-3'
+    type: kill-mob
+    variable: PIG
+    required-progress: 200
+    
+'193':
+  name: 'Hunter - Pig IV'
+  item:
+    material: PORKCHOP:0
+    amount: 4
+    name: '&aHunter - Pig IV'
+    lore:
+      - '&7Zabij 500x Prase'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'pig-4'
+    type: kill-mob
+    variable: PIG
+    required-progress: 500
+    
+'194':
+  name: 'Hunter - Pig V'
+  item:
+    material: PORKCHOP:0
+    amount: 5
+    name: '&aHunter - Pig V'
+    lore:
+      - '&7Zabij 1250x Prase'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'pig-5'
+    type: kill-mob
+    variable: PIG
+    required-progress: 1250
+    
+'195':
+  name: 'Hunter - Rabbit I'
+  item:
+    material: RABBIT_FOOT:0
+    amount: 1
+    name: '&aHunter - Rabbit I'
+    lore:
+      - '&7Zabij 5x králíka'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'rab-1'
+    type: kill-mob
+    variable: RABBIT
+    required-progress: 5
+    
+'196':
+  name: 'Hunter - Rabbit II'
+  item:
+    material: RABBIT_FOOT:0
+    amount: 2
+    name: '&aHunter - Rabbit II'
+    lore:
+      - '&7Zabij 40x králíka'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'rab-2'
+    type: kill-mob
+    variable: RABBIT
+    required-progress: 40
+    
+'197':
+  name: 'Hunter - Chicken I'
+  item:
+    material: CHICKEN:0
+    amount: 1
+    name: '&aHunter - Chicken I'
+    lore:
+      - '&7Zabij 10x kuřat'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'chick-1'
+    type: kill-mob
+    variable: CHICKEN
+    required-progress: 10
+    
+'198':
+  name: 'Hunter - Chicken II'
+  item:
+    material: CHICKEN:0
+    amount: 2
+    name: '&aHunter - Chicken II'
+    lore:
+      - '&7Zabij 40x kuřat'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'chick-2'
+    type: kill-mob
+    variable: CHICKEN
+    required-progress: 40
+    
+'199':
+  name: 'Hunter - Chicken III'
+  item:
+    material: CHICKEN:0
+    amount: 3
+    name: '&aHunter - Chicken III'
+    lore:
+      - '&7Zabij 150x kuřat'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'chick-3'
+    type: kill-mob
+    variable: CHICKEN
+    required-progress: 150
+    
+'200':
+  name: 'Hunter - Chicken IV'
+  item:
+    material: CHICKEN:0
+    amount: 4
+    name: '&aHunter - Chicken IV'
+    lore:
+      - '&7Zabij 500x kuřat'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'chick-4'
+    type: kill-mob
+    variable: CHICKEN
+    required-progress: 500
+    
+'201':
+  name: 'Hunter - Chicken V'
+  item:
+    material: CHICKEN:0
+    amount: 5
+    name: '&aHunter - Chicken V'
+    lore:
+      - '&7Zabij 2000x kuřat'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'chick-5'
+    type: kill-mob
+    variable: CHICKEN
+    required-progress: 2000
+    
+'202':
+  name: 'Hunter - Salmon I'
+  item:
+    material: SALMON:0
+    amount: 1
+    name: '&aHunter - Salmon I'
+    lore:
+      - '&7Zabij 20x lososa'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'los-1'
+    type: kill-mob
+    variable: SALMON
+    required-progress: 20
+    
+'203':
+  name: 'Hunter - Sheep I'
+  item:
+    material: MUTTON:0
+    amount: 1
+    name: '&aHunter - Sheep I'
+    lore:
+      - '&7Zabij 10x ovci'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sheep-1'
+    type: kill-mob
+    variable: SHEEP
+    required-progress: 10
+    
+'204':
+  name: 'Hunter - Sheep II'
+  item:
+    material: MUTTON:0
+    amount: 2
+    name: '&aHunter - Sheep II'
+    lore:
+      - '&7Zabij 50x ovci'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sheep-2'
+    type: kill-mob
+    variable: SHEEP
+    required-progress: 50
+    
+'205':
+  name: 'Hunter - Sheep III'
+  item:
+    material: MUTTON:0
+    amount: 3
+    name: '&aHunter - Sheep III'
+    lore:
+      - '&7Zabij 250x ovci'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sheep-3'
+    type: kill-mob
+    variable: SHEEP
+    required-progress: 250
+    
+'206':
+  name: 'Hunter - Sheep IV'
+  item:
+    material: MUTTON:0
+    amount: 4
+    name: '&aHunter - Sheep IV'
+    lore:
+      - '&7Zabij 700x ovci'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'sheep-4'
+    type: kill-mob
+    variable: SHEEP
+    required-progress: 700
+    
+'207':
+  name: 'Hunter - Cow I'
+  item:
+    material: BEEF:0
+    amount: 1
+    name: '&aHunter - Cow I'
+    lore:
+      - '&7Zabij 10x krávu'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'cow-1'
+    type: kill-mob
+    variable: COW
+    required-progress: 10
+    
+'208':
+  name: 'Hunter - Cow II'
+  item:
+    material: BEEF:0
+    amount: 2
+    name: '&aHunter - Cow II'
+    lore:
+      - '&7Zabij 50x krávu'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'cow-2'
+    type: kill-mob
+    variable: COW
+    required-progress: 50
+    
+'209':
+  name: 'Hunter - Cow III'
+  item:
+    material: BEEF:0
+    amount: 3
+    name: '&aHunter - Cow III'
+    lore:
+      - '&7Zabij 250x krávu'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'cow-3'
+    type: kill-mob
+    variable: COW
+    required-progress: 250
+    
+'210':
+  name: 'Hunter - Cow IV'
+  item:
+    material: BEEF:0
+    amount: 4
+    name: '&aHunter - Cow IV'
+    lore:
+      - '&7Zabij 800x krávu'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'cow-4'
+    type: kill-mob
+    variable: COW
+    required-progress: 800
+    
+'211':
+  name: 'Hunter - Cow V'
+  item:
+    material: BEEF:0
+    amount: 5
+    name: '&aHunter - Cow V'
+    lore:
+      - '&7Zabij 1500x krávu'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'cow-5'
+    type: kill-mob
+    variable: COW
+    required-progress: 1500
+    
+'212':
+  name: 'Hunter - Skeleton Horse I'
+  item:
+    material: BONE_MEAL:0
+    amount: 1
+    name: '&aHunter - Skeleton Horse I'
+    lore:
+      - '&7Zabij 3x Skeleton Horse'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'skeleton-horse'
+    type: kill-mob
+    variable: SKELETON_HORSE
+    required-progress: 3
+    
+'213':
+  name: 'Hunter - Squid I'
+  item:
+    material: BLACK_DYE:0
+    amount: 1
+    name: '&aHunter - Squid I'
+    lore:
+      - '&7Zabij 10x Squid'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'squid'
+    type: kill-mob
+    variable: SQUID
+    required-progress: 10
+    
+'214':
+  name: 'Hunter - Squid II'
+  item:
+    material: BLACK_DYE:0
+    amount: 2
+    name: '&aHunter - Squid II'
+    lore:
+      - '&7Zabij 50x Squid'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'squid-2'
+    type: kill-mob
+    variable: SQUID
+    required-progress: 50
+    
+'215':
+  name: 'Hunter - Squid III'
+  item:
+    material: BLACK_DYE:0
+    amount: 3
+    name: '&aHunter - Squid III'
+    lore:
+      - '&7Zabij 150x chobotnici'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'squid-3'
+    type: kill-mob
+    variable: SQUID
+    required-progress: 150
+    
+'216':
+  name: 'Hunter - Strider I'
+  item:
+    material: WOODEN_SWORD:0
+    amount: 1
+    name: '&aHunter - Strider I'
+    lore:
+      - '&7Zabij 25x Strider'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'strider-1'
+    type: kill-mob
+    variable: STRIDER
+    required-progress: 25
+    
+'217':
+  name: 'Hunter - Mooshroom I'
+  item:
+    material: IRON_SWORD:0
+    amount: 1
+    name: '&aHunter - Mooshroom I'
+    lore:
+      - '&7Zabij 10x Mooshroom'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'moosh-1'
+    type: kill-mob
+    variable: MOOSHROOM
+    required-progress: 10
+    
+'218':
+  name: 'Hunter - Mooshroom II'
+  item:
+    material: IRON_SWORD:0
+    amount: 2
+    name: '&aHunter - Mooshroom II'
+    lore:
+      - '&7Zabij 40x Mooshroom'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'moosh-2'
+    type: kill-mob
+    variable: MOOSHROOM
+    required-progress: 40
+    
+'219':
+  name: 'Hunter - Mooshroom III'
+  item:
+    material: IRON_SWORD:0
+    amount: 3
+    name: '&aHunter - Mooshroom III'
+    lore:
+      - '&7Zabij 100x Mooshroom'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'moosh-3'
+    type: kill-mob
+    variable: MOOSHROOM
+    required-progress: 100
+    
+'220':
+  name: 'Hunter - Blaze I'
+  item:
+    material: BLAZE_ROD:0
+    amount: 1
+    name: '&aHunter - Blaze I'
+    lore:
+      - '&7Zabij 15x Blaze'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'blaze-1'
+    type: kill-mob
+    variable: BLAZE
+    required-progress: 15
+    
+'221':
+  name: 'Hunter - Blaze II'
+  item:
+    material: BLAZE_ROD:0
+    amount: 2
+    name: '&aHunter - Blaze II'
+    lore:
+      - '&7Zabij 50x Blaze'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'blaze-2'
+    type: kill-mob
+    variable: BLAZE
+    required-progress: 50
+    
+'222':
+  name: 'Hunter - Blaze III'
+  item:
+    material: BLAZE_ROD:0
+    amount: 3
+    name: '&aHunter - Blaze III'
+    lore:
+      - '&7Zabij 125x Blaze'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'blaze-3'
+    type: kill-mob
+    variable: BLAZE
+    required-progress: 125
+    
+'223':
+  name: 'Hunter - Pillager I'
+  item:
+    material: STONE_SWORD:0
+    amount: 1
+    name: '&aHunter - Pillager I'
+    lore:
+      - '&7Zabij 5x Pillager'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Pillager-1'
+    type: kill-mob
+    variable: PILLAGER
+    required-progress: 5
+    
+'224':
+  name: 'Hunter - Pillager II'
+  item:
+    material: STONE_SWORD:0
+    amount: 2
+    name: '&aHunter - Pillager II'
+    lore:
+      - '&7Zabij 15x Pillager'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'Pillager-2'
+    type: kill-mob
+    variable: PILLAGER
+    required-progress: 15
+    
+'225':
+  name: 'Hunter - Creeper I'
+  item:
+    material: GUNPOWDER:0
+    amount: 1
+    name: '&aHunter - Creeper I'
+    lore:
+      - '&7Zabij 10x Creeper'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'creeper-1'
+    type: kill-mob
+    variable: CREEPER
+    required-progress: 10
+    
+'226':
+  name: 'Hunter - Creeper II'
+  item:
+    material: GUNPOWDER:0
+    amount: 2
+    name: '&aHunter - Creeper II'
+    lore:
+      - '&7Zabij 30x Creeper'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'creeper-2'
+    type: kill-mob
+    variable: CREEPER
+    required-progress: 30
+    
+'227':
+  name: 'Hunter - Creeper III'
+  item:
+    material: GUNPOWDER:0
+    amount: 3
+    name: '&aHunter - Creeper III'
+    lore:
+      - '&7Zabij 100x Creeper'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'creeper-3'
+    type: kill-mob
+    variable: CREEPER
+    required-progress: 100
+    
+'228':
+  name: 'Hunter - Creeper IV'
+  item:
+    material: GUNPOWDER:0
+    amount: 4
+    name: '&aHunter - Creeper IV'
+    lore:
+      - '&7Zabij 400x Creeper'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'creeper-4'
+    type: kill-mob
+    variable: CREEPER
+    required-progress: 400
+    
+'229':
+  name: 'Hunter - Creeper V'
+  item:
+    material: GUNPOWDER:0
+    amount: 5
+    name: '&aHunter - Creeper V'
+    lore:
+      - '&7Zabij 1000x Creeper'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'creeper-5'
+    type: kill-mob
+    variable: CREEPER
+    required-progress: 1000
+    
+'230':
+  name: 'Hunter - Ravager'
+  item:
+    material: WOODEN_SWORD:0
+    amount: 1
+    name: '&aHunter - Ravager'
+    lore:
+      - '&7Zabij 3x Ravager'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ravager-1'
+    type: kill-mob
+    variable: RAVAGER
+    required-progress: 3
+    
+'231':
+  name: 'Hunter - Drowned I'
+  item:
+    material: DRIED_KELP:0
+    amount: 1
+    name: '&aHunter - Drowned I'
+    lore:
+      - '&7Zabij 15x Drowned'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'drowned-1'
+    type: kill-mob
+    variable: DROWNED
+    required-progress: 10
+    
+'232':
+  name: 'Hunter - Drowned II'
+  item:
+    material: DRIED_KELP:0
+    amount: 2
+    name: '&aHunter - Drowned II'
+    lore:
+      - '&7Zabij 45x Drowned'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'drowned-2'
+    type: kill-mob
+    variable: DROWNED
+    required-progress: 45
+    
+'233':
+  name: 'Hunter - Drowned III'
+  item:
+    material: DRIED_KELP:0
+    amount: 3
+    name: '&aHunter - Drowned III'
+    lore:
+      - '&7Zabij 100x Drowned'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'drowned-3'
+    type: kill-mob
+    variable: DROWNED
+    required-progress: 100
+    
+'234':
+  name: 'Hunter - Shulker I'
+  item:
+    material: SHULKER_SHELL:0
+    amount: 1
+    name: '&aHunter - Shulker I'
+    lore:
+      - '&7Zabij 25x Shulker'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'shulker-1'
+    type: kill-mob
+    variable: SHULKER
+    required-progress: 25
+    
+'235':
+  name: 'Hunter - Elder Guardian I'
+  item:
+    material: PRISMARINE_SHARD:0
+    amount: 1
+    name: '&aHunter - Elder Guardian I'
+    lore:
+      - '&7Zabij 1x Elder Guardian'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'elder-1'
+    type: kill-mob
+    variable: ELDER_GUARDIAN
+    required-progress: 1
+    
+'236':
+  name: 'Hunter - Guardian I'
+  item:
+    material: PRISMARINE_CRYSTALS:0
+    amount: 1
+    name: '&aHunter - Guardian I'
+    lore:
+      - '&7Zabij 10x Guardian'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'guardian-1'
+    type: kill-mob
+    variable: GUARDIAN
+    required-progress: 10
+    
+'237':
+  name: 'Hunter - Guardian II'
+  item:
+    material: PRISMARINE_CRYSTALS:0
+    amount: 2
+    name: '&aHunter - Guardian II'
+    lore:
+      - '&7Zabij 40x Guardian'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'guardian-2'
+    type: kill-mob
+    variable: GUARDIAN
+    required-progress: 40
+    
+'238':
+  name: 'Hunter - Silverfish I'
+  item:
+    material: WOODEN_SWORD:0
+    amount: 1
+    name: '&aHunter - Silverfish I'
+    lore:
+      - '&7Zabij 20x Silverfish'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'silverfish-2'
+    type: kill-mob
+    variable: SILVERFISH
+    required-progress: 20
+    
+'241':
+  name: 'Hunter - Skeleton I'
+  item:
+    material: BONE:0
+    amount: 1
+    name: '&aHunter - Skeleton I'
+    lore:
+      - '&7Zabij 15x Skeleton'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'skeleton-1'
+    type: kill-mob
+    variable: SKELETON
+    required-progress: 15
+    
+'242':
+  name: 'Hunter - Skeleton II'
+  item:
+    material: BONE:0
+    amount: 2
+    name: '&aHunter - Skeleton II'
+    lore:
+      - '&7Zabij 50x Skeleton'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'skeleton-2'
+    type: kill-mob
+    variable: SKELETON
+    required-progress: 50
+    
+'243':
+  name: 'Hunter - Skeleton III'
+  item:
+    material: BONE:0
+    amount: 3
+    name: '&aHunter - Skeleton III'
+    lore:
+      - '&7Zabij 150x Skeleton'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'skeleton-3'
+    type: kill-mob
+    variable: SKELETON
+    required-progress: 150
+    
+'244':
+  name: 'Hunter - Skeleton IV'
+  item:
+    material: BONE:0
+    amount: 4
+    name: '&aHunter - Skeleton IV'
+    lore:
+      - '&7Zabij 350x Skeleton'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'skeleton-4'
+    type: kill-mob
+    variable: SKELETON
+    required-progress: 350
+    
+'245':
+  name: 'Hunter - Skeleton V'
+  item:
+    material: BONE:0
+    amount: 5
+    name: '&aHunter - Skeleton V'
+    lore:
+      - '&7Zabij 800x Skeleton'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'skeleton-5'
+    type: kill-mob
+    variable: SKELETON
+    required-progress: 800
+    
+'246':
+  name: 'Hunter - Endermite'
+  item:
+    material: END_ROD:0
+    amount: 1
+    name: '&aHunter - Endermite'
+    lore:
+      - '&7Zabij 50x Endermite'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'endermite-1'
+    type: kill-mob
+    variable: ENDERMITE
+    required-progress: 50
+    
+'247':
+  name: 'Hunter - Evoker'
+  item:
+    material: EMERALD:0
+    amount: 1
+    name: '&aHunter - Evoker'
+    lore:
+      - '&7Zabij 5x Evoker'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'evoker-1'
+    type: kill-mob
+    variable: EVOKER
+    required-progress: 5
+    
+'248':
+  name: 'Hunter - Ghast'
+  item:
+    material: GHAST_TEAR:0
+    amount: 1
+    name: '&aHunter - Ghast'
+    lore:
+      - '&7Zabij 35x Ghast'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'ghast-1'
+    type: kill-mob
+    variable: GHAST
+    required-progress: 35
+    
+'249':
+  name: 'Hunter - Vex'
+  item:
+    material: WOODEN_SWORD:0
+    amount: 1
+    name: '&aHunter - Vex'
+    lore:
+      - '&7Zabij 10x Vex'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'vex-1'
+    type: kill-mob
+    variable: VEX
+    required-progress: 10
+    
+'250':
+  name: 'Hunter - Vindicator'
+  item:
+    material: WOODEN_SWORD:0
+    amount: 1
+    name: '&aHunter - Vindicator'
+    lore:
+      - '&7Zabij 50x Vindicatorx'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'vindicator-1'
+    type: kill-mob
+    variable: VINDICATOR
+    required-progress: 50
+    
+'251':
+  name: 'Hunter - Slime I'
+  item:
+    material: IRON_SWORD:0
+    amount: 1
+    name: '&aHunter - Slime I'
+    lore:
+      - '&7Zabij 50x Slime'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'slime-1'
+    type: kill-mob
+    variable: SLIME
+    required-progress: 50
+    
+'252':
+  name: 'Hunter - Slime II'
+  item:
+    material: IRON_SWORD:0
+    amount: 2
+    name: '&aHunter - Slime II'
+    lore:
+      - '&7Zabij 150x Slime'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'slime-2'
+    type: kill-mob
+    variable: SLIME
+    required-progress: 150
+    
+'253':
+  name: 'Hunter - Hoglin'
+  item:
+    material: STONE_SWORD:0
+    amount: 1
+    name: '&aHunter - Hoglin'
+    lore:
+      - '&7Zabij 25x Hoglin'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'hoglin-1'
+    type: kill-mob
+    variable: HOGLIN
+    required-progress: 25
+    
+'254':
+  name: 'Hunter - Witch'
+  item:
+    material: POTION:0
+    amount: 1
+    name: '&aHunter - Witch'
+    lore:
+      - '&7Zabij 50x Witch'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'witch-1'
+    type: kill-mob
+    variable: WITCH
+    required-progress: 50
+    
+'255':
+  name: 'Hunter - Husk'
+  item:
+    material: STONE_SWORD:0
+    amount: 1
+    name: '&aHunter - Husk'
+    lore:
+      - '&7Zabij 50x Husk'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'husk-1'
+    type: kill-mob
+    variable: HUSK
+    required-progress: 50
+    
+'256':
+  name: 'Hunter - Wither I'
+  item:
+    material: IRON_SWORD:0
+    amount: 1
+    name: '&aHunter - Wither I'
+    lore:
+      - '&7Zabij 1x Wither'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'wither-1'
+    type: kill-mob
+    variable: WITHER
+    required-progress: 1
+    
+'257':
+  name: 'Hunter - Wither II'
+  item:
+    material: IRON_SWORD:0
+    amount: 2
+    name: '&aHunter - Wither II'
+    lore:
+      - '&7Zabij 3x Wither'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'wither-2'
+    type: kill-mob
+    variable: WITHER
+    required-progress: 3
+    
+'258':
+  name: 'Hunter - Wither Skeleton I'
+  item:
+    material: IRON_SWORD:0
+    amount: 1
+    name: '&aHunter - Wither Skeleton I'
+    lore:
+      - '&7Zabij 10x Wither Skeleton'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'withers-1'
+    type: kill-mob
+    variable: WITHER_SKELETON
+    required-progress: 10
+    
+'259':
+  name: 'Hunter - Wither Skeleton II'
+  item:
+    material: IRON_SWORD:0
+    amount: 2
+    name: '&aHunter - Wither Skeleton II'
+    lore:
+      - '&7Zabij 30x Wither Skeleton'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'withers-2'
+    type: kill-mob
+    variable: WITHER_SKELETON
+    required-progress: 30
+    
+'260':
+  name: 'Hunter - Magma Cube'
+  item:
+    material: MAGMA_CREAM:0
+    amount: 1
+    name: '&aHunter - Magma Cube'
+    lore:
+      - '&7Zabij 40x Magma Cube'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'magma-1'
+    type: kill-mob
+    variable: MAGMA_CUBE
+    required-progress: 40
+    
+'260':
+  name: 'Hunter - Phantom I'
+  item:
+    material: IRON_SWORD:0
+    amount: 1
+    name: '&aHunter - Phantom I'
+    lore:
+      - '&7Zabij 10x Phantom'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'phantom-1'
+    type: kill-mob
+    variable: PHANTOM
+    required-progress: 10
+    
+'261':
+  name: 'Hunter - Phantom II'
+  item:
+    material: IRON_SWORD:0
+    amount: 2
+    name: '&aHunter - Phantom II'
+    lore:
+      - '&7Zabij 50x Phantom'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'phantom-2'
+    type: kill-mob
+    variable: PHANTOM
+    required-progress: 50
+    
+'262':
+  name: 'Hunter - Zombie I'
+  item:
+    material: STONE_SWORD:0
+    amount: 1
+    name: '&aHunter - Zombie I'
+    lore:
+      - '&7Zabij 10x Zombie'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'zombie-1'
+    type: kill-mob
+    variable: ZOMBIE
+    required-progress: 10
+    
+'263':
+  name: 'Hunter - Zombie II'
+  item:
+    material: STONE_SWORD:0
+    amount: 2
+    name: '&aHunter - Zombie II'
+    lore:
+      - '&7Zabij 50x Zombie'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'zombie-2'
+    type: kill-mob
+    variable: ZOMBIE
+    required-progress: 50
+    
+'264':
+  name: 'Hunter - Zombie III'
+  item:
+    material: STONE_SWORD:0
+    amount: 3
+    name: '&aHunter - Zombie III'
+    lore:
+      - '&7Zabij 150x Zombie'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'zombie-3'
+    type: kill-mob
+    variable: ZOMBIE
+    required-progress: 150
+    
+'265':
+  name: 'Hunter - Zombie IV'
+  item:
+    material: STONE_SWORD:0
+    amount: 4
+    name: '&aHunter - Zombie IV'
+    lore:
+      - '&7Zabij 350x Zombie'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'zombie-4'
+    type: kill-mob
+    variable: ZOMBIE
+    required-progress: 350
+    
+'266':
+  name: 'Hunter - Zombie V'
+  item:
+    material: STONE_SWORD:0
+    amount: 5
+    name: '&aHunter - Zombie V'
+    lore:
+      - '&7Zabij 800x Zombie'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'zombie-5'
+    type: kill-mob
+    variable: ZOMBIE
+    required-progress: 800
+    
+'267':
+  name: 'Hunter - Zombie VI'
+  item:
+    material: STONE_SWORD:0
+    amount: 6
+    name: '&aHunter - Zombie VI'
+    lore:
+      - '&7Zabij 1500x Zombie'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'zombie-6'
+    type: kill-mob
+    variable: ZOMBIE
+    required-progress: 1500
+    
+'268':
+  name: 'Hunter - Piglin I'
+  item:
+    material: GOLD_NUGGET:0
+    amount: 1
+    name: '&aHunter - Piglin I'
+    lore:
+      - '&7Zabij 25x Piglin'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'piglin-1'
+    type: kill-mob
+    variable: PIGLIN
+    required-progress: 25
+    
+'269':
+  name: 'Hunter - Piglin II'
+  item:
+    material: GOLD_NUGGET:0
+    amount: 2
+    name: '&aHunter - Piglin II'
+    lore:
+      - '&7Zabij 75x Piglin'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'piglin-2'
+    type: kill-mob
+    variable: PIGLIN
+    required-progress: 75
+    
+'270':
+  name: 'Hunter - Pufferfish'
+  item:
+    material: WOODEN_SWORD:0
+    amount: 1
+    name: '&aHunter - Pufferfish'
+    lore:
+      - '&7Zabij 10x Pufferfish'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'piff-2'
+    type: kill-mob
+    variable: PUFFERFISH
+    required-progress: 10
+    
+'271':
+  name: 'Hunter - Spider I'
+  item:
+    material: IRON_SWORD:0
+    amount: 1
+    name: '&aHunter - Spider I'
+    lore:
+      - '&7Zabij 10x Spider'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'spider-1'
+    type: kill-mob
+    variable: SPIDER
+    required-progress: 10
+    
+'272':
+  name: 'Hunter - Spider II'
+  item:
+    material: IRON_SWORD:0
+    amount: 2
+    name: '&aHunter - Spider II'
+    lore:
+      - '&7Zabij 50x Spider'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'spider-2'
+    type: kill-mob
+    variable: SPIDER
+    required-progress: 50
+    
+'273':
+  name: 'Hunter - Spider III'
+  item:
+    material: IRON_SWORD:0
+    amount: 3
+    name: '&aHunter - Spider III'
+    lore:
+      - '&7Zabij 150x Spider'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'spider-3'
+    type: kill-mob
+    variable: SPIDER
+    required-progress: 150
+    
+'274':
+  name: 'Hunter - Spider IV'
+  item:
+    material: IRON_SWORD:0
+    amount: 4
+    name: '&aHunter - Spider IV'
+    lore:
+      - '&7Zabij 350x Spider'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'spider-4'
+    type: kill-mob
+    variable: SPIDER
+    required-progress: 350
+    
+'275':
+  name: 'Hunter - Enderman I'
+  item:
+    material: ENDERPEARL:0
+    amount: 1
+    name: '&aHunter - Enderman I'
+    lore:
+      - '&7Zabij 5x Enderman'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'enderman-1'
+    type: kill-mob
+    variable: ENDERMAN
+    required-progress: 5
+    
+'276':
+  name: 'Hunter - Enderman II'
+  item:
+    material: ENDERPEARL:0
+    amount: 2
+    name: '&aHunter - Enderman II'
+    lore:
+      - '&7Zabij 30x Enderman'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'enderman-2'
+    type: kill-mob
+    variable: ENDERMAN
+    required-progress: 30
+    
+'277':
+  name: 'Hunter - Enderman III'
+  item:
+    material: ENDERPEARL:0
+    amount: 3
+    name: '&aHunter - Enderman III'
+    lore:
+      - '&7Zabij 100x Enderman'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'enderman-3'
+    type: kill-mob
+    variable: ENDERMAN
+    required-progress: 100
+    
+'278':
+  name: 'Hunter - Enderman IV'
+  item:
+    material: ENDERPEARL:0
+    amount: 4
+    name: '&aHunter - Enderman IV'
+    lore:
+      - '&7Zabij 200x Enderman'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'enderman-4'
+    type: kill-mob
+    variable: ENDERMAN
+    required-progress: 200
+    
+'279':
+  name: 'Hunter - Iron Golem'
+  item:
+    material: IRON_INGOT:0
+    amount: 1
+    name: '&aHunter - Iron Golem'
+    lore:
+      - '&7Zabij 7x Iron Golem'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'iron-golem-1'
+    type: kill-mob
+    variable: IRON_GOLEM
+    required-progress: 7
+
+### PLAYER HUNTER
+    
+'280':
+  name: 'Player Hunter - I'
+  item:
+    material: PLAYER_HEAD:0
+    amount: 1
+    name: '&aPlayer Hunter - I'
+    lore:
+      - '&7Zabij 1x jakéhokoliv hráče'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'player-hunter-1'
+    type: kill-player
+    required-progress: 1
+    
+'281':
+  name: 'Player Hunter - II'
+  item:
+    material: PLAYER_HEAD:0
+    amount: 2
+    name: '&aPlayer Hunter - II'
+    lore:
+      - '&7Zabij 10x jakéhokoliv hráče'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'player-hunter-2'
+    type: kill-player
+    required-progress: 10
+    
+'282':
+  name: 'Player Hunter - III'
+  item:
+    material: PLAYER_HEAD:0
+    amount: 3
+    name: '&aPlayer Hunter - III'
+    lore:
+      - '&7Zabij 40x jakéhokoliv hráče'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'player-hunter-3'
+    type: kill-player
+    required-progress: 40
+    
+'283':
+  name: 'Player Hunter - IV'
+  item:
+    material: PLAYER_HEAD:0
+    amount: 4
+    name: '&aPlayer Hunter - IV'
+    lore:
+      - '&7Zabij 120x jakéhokoliv hráče'
+      - ''
+      - '&7Postup: &f%total_progress%&7/&f%required_progress%'
+  rewards: ['1']
+  '1':
+    name: 'player-hunter-4'
+    type: kill-player
+    required-progress: 120
+
+
+
+
+
+
+
+
